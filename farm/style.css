@@ -1,0 +1,184 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.container{
+width:1170px;
+margin:0 auto;
+}
+.header
+{
+	background-color:#282828;
+}
+.container .logo{
+	float:left;
+}
+
+.header ul{
+	margin-top:20px;
+	float:right;
+	list-style-type:none;
+}
+.header li{
+	float:left;
+	margin-left:55px;
+}
+.logo img{
+
+    height: 47px;
+    width: 157px;
+}
+
+.header li a{
+	
+	font-size:14px;
+	line-height:16px;
+	color:white;
+	text-decoration:none;
+	
+}
+.content{
+	margin-top:30px;
+}
+
+.content input{
+    height: 30px;
+    width: 224px;
+}
+
+.content label{
+	padding-left:80px;
+	margin-right:10px;
+	color:gray;
+	font-size:14px;
+	font-family:Monospace;
+}
+
+.clear{
+	clear:both;
+}
+button {
+    height: 30px;
+    width: 126px;
+    margin-left: 65px;
+    box-shadow:3px 4px 7px #888888;
+}
+
+hr {
+    color: #d9d9d9;
+    border: 1px solid;
+}
+.data ul{
+	list-style-type:none
+}
+.data li label{
+    margin-left: 36px;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: bold;
+}
+.data .eastFarm {
+	margin-left:291px;
+}
+.data .northFarm {
+	margin-left:278px;
+}
+
+.data .westFarm {
+	margin-left:287px;
+}
+.data .southFarm {
+	margin-left:280px;
+}
+
+.data .northeastFarm {
+	margin-left:236px;
+}
+.data .northwestFarm {
+	margin-left:232px;
+}
+.data .southeastFarm {
+	margin-left:238px;
+}
+.data .ungroup {
+	margin-left:187px;
+}
+.data input{
+	float:right;
+	height:18px;
+	width:18px;
+}
+.footer{
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:Black;
+    margin-top: 160px;
+}
+
+.footer p{
+	font-size:14px;
+	line-height:16px;
+	color:white;
+	text-align:center;
+}
+.footer span{
+	color:#ff0000;
+}
+.data ul li span{
+	font-family: Monospace;
+}
+.header li a:hover{
+	color:#1a1a1a;
+	border-top: 1px solid red;
+	height: 47px;
+	width: 60px;
+
+}
