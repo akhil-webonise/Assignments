@@ -1,0 +1,260 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.Blackheader{
+	background-color: #282828;
+
+}
+.Blackheader a{
+	float: left;
+	text-decoration: none;
+	color: #ffffff;
+    padding-right: 40px;
+}
+.Blackheader ul{
+	float: right;
+}
+
+
+.Blackheader li{
+	float: left;
+}
+
+
+.Blackheader li a{
+	padding: 30px
+}
+.Blackheader li a:hover{
+	background-color: #c2272d;
+	font-weight: bold;
+	
+}
+.account{
+	background-image: url('images/account.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;	
+    display: inline-block;
+    height: 7px;
+    width: 9px;
+    margin-left: 6px;
+}
+.logout{
+	background-image: url('images/logout.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+    height: 19px;
+    width: 15px;
+    margin-left: 6px;
+}
+.clear{
+	clear: both;
+}
+.Whiteheader{
+	background-color: #f1f1f1;
+}
+.Whiteheader h2{
+	font-family:RBNo2;
+	font-size: 45px;
+	color: #c1272d;
+	font-weight: normal;
+
+}
+.Whiteheader a{
+	float: left;
+	text-decoration: none;
+    margin-right: 60px;
+}
+.Whiteheader ul{
+	float: right;
+}
+
+.Whiteheader ul li{
+	float: left;
+}
+ 
+.Whiteheader li a:hover{
+	background-color: #ffffff;
+	font-weight: bold;
+}
+.Whiteheader ul li h3{
+    padding: 30px;
+    color: #4c4c4c;
+}
+.oneLeft{
+	float: left;
+	width: 240px;
+	height: 160px;
+	margin-top: 32px;
+}
+.oneRight{
+    float: right;
+    width: 380px;
+    height: 160px;
+    margin-top: -147px;
+}
+.oneLeft ul li h2{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Myriad Pro;
+	color: #c2272d;
+}
+.oneLeft ul li h2 span{
+	color: #010004;
+}
+.oneLeft ul li h4{
+	font-size: 20px;
+	font-weight: normal;
+}
+.lowerText{
+
+    margin-top: 15px;
+}
+.macBtn{
+	background-color: #ebebeb;
+    padding-bottom: 6px;
+    padding-top: 11px;
+    padding-left: 66px;
+    width: 328px;
+}
+.macBtn a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #444444;
+}
+.macBtn h3{
+    padding: 2px 11px 18px 125px;
+}
+
+.macBtn img{
+	background-image: url('images/arrow.png');
+	display: inline-block;
+	vertical-align: middle;
+}
+.WindowBtn{
+	background-color: #ebebeb;
+    padding-bottom: 6px;
+    padding-top: 11px;
+    padding-left: 66px;
+    width: 328px;
+
+    margin-top: 15px;
+}
+.WindowBtn a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #444444;
+}
+.WindowBtn h3{
+    padding: 2px 11px 18px 125px;
+}
+
+.WindowBtn img{
+	background-image: url('images/arrow.png');
+	display: inline-block;
+	vertical-align: middle;
+}
+.one{
+    width: 860px;
+
+    border-bottom: 2px solid #c6c6c6;
+}
+.data{
+
+    margin-left: 200px;
+    margin-top: 60px;
+
+    padding-bottom: 200px;
+}/*
+ .data .one .oneLeft li.clear{
+ 	float: none;
+ 	
+ }
+
+ .data .one .oneRight li.clear{
+ 	float: none;
+ 
+ }*/
+
+.footer{
+	background-color:#282828;
+	text-align: center;
+}
+.footer h2{
+	font-size: 12px;
+	color: #ffffff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer h2 span{
+	color: #c1272d;
+}
+ .arrow{
+	background-image: url('images/arrow.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	height: 30px;
+	width: 30px;
+}
+.note h2{
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+    margin: 91px;
+}
+
+.note h2 span{
+	color: #c1272d;
+}
