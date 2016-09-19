@@ -1,0 +1,306 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*reset css ends*/
+
+.whiteHeader{
+	background-color: #e4e4e4;
+    text-align: center;
+}
+.whiteHeader ul{
+    padding-left: 12px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+.whiteHeader .circle{
+	/*padding-bottom: 6px
+	padding-left:12px;
+*/
+}
+.whiteHeader li{
+	margin-right: 7px;
+	float: left;
+}
+.whiteHeader ul{
+	float: left;
+}
+a{
+	text-decoration: none;
+}
+
+.redCircle{
+	height: 13px;
+	width: 13px;
+	background-color: #d14646;
+	border-radius: 50%;
+	display: inline-block;
+}
+.yellowCircle{
+    height: 13px;
+	width: 13px;
+	background-color: #edc54a;
+	border-radius: 50%;
+	display: inline-block;
+}
+.greenCircle{
+    height: 13px;
+	width: 13px;
+	background-color: #1dc066;
+	border-radius: 50%;
+	display: inline-block;
+}
+.whiteHeader ul li a .logo{
+	/*margin-left: 383px;*/
+    padding-top: 4px;
+}
+.whiteHeader .logo img{
+	margin-top: 4px;
+}
+.clear{
+	clear: both;
+}
+li.clear{
+	float: none;
+	margin: 0;
+}
+.blackHeader{
+	background-color: #231f20;
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+}
+.blackHeader a{
+	
+	float: left;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-left: 28px;
+    padding-bottom: 8px;
+    display: block;
+    color: #ffffff;
+
+}
+.blackHeader a:hover{
+	background-color: #d14646;
+}/*
+.blackHeader span{
+	font-size: 14px;
+	color: #ffffff;
+	padding: 18px 15px 16px 29px;
+	line-height: 30px;
+	font-family: Myriad Pro;
+
+}*/
+.blackHeader h3{
+	display: inline;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 30px;
+	float: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 29px;
+}
+
+.blackHeader .subBlack {
+ float: left;
+ margin-right: 46px;
+ }
+.blackHeader ul{
+	float: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.blackHeader ul li{
+	float: left;
+	margin-left: 40px;
+}/*
+.blackHeader a span{
+	padding-top: 18px 15px 16px 29px;
+}
+*/
+.banner{
+	background-color: #7f7f7f;
+	background-image: url('images/images/banner.jpg');
+	background-repeat: no-repeat;
+    background-position: center center; 
+    /*height: 400px;
+    padding-left: 13px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-right: 17px;*/
+}
+.innerWrapper {
+ padding-left: 13px;
+ padding-top: 14px;
+ padding-right: 17px;
+ padding-bottom: 20px;
+}
+.flightPath,
+.GCP {
+ font-size: 14px;
+ line-height: 16px;
+ padding-top: 7px;
+ padding-bottom: 7px;
+ font-weight: bold;
+ background-color: #fff;
+ color: #000000;
+ float: left;
+ 
+}
+.flightPath {
+ padding-right: 7px;
+ padding-left: 8px;
+ border-radius: 4px 0px 0px 4px;
+}
+.GCP {
+ padding-right: 30px;
+ padding-left: 29px;
+ background-color: #000;
+ color: #ffffff;
+ border-radius: 0px 4px 4px 0px;
+}
+.leftrightBtn {
+ color: #fff;
+ margin-top: 268px;
+}
+.leftrightBtn a {
+ display: block;
+ font-size: 14px;
+ line-height: 16px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 14px;
+ padding-right: 16px;
+ background-color: #cc3333;
+ color: #fff;
+ text-align: center;
+ font-weight: bold;
+ border-radius: 5px;
+}
+.leftBtn {
+ float: left;
+ margin-left: 5px;
+}
+.leftBtn a {
+ width: 183px;
+}
+.leftBtn span {
+ font-size: 18px;
+ line-height: 16.8px;
+ display: block;
+ margin-bottom: 14px;
+}
+.RightBtn {
+ float: right;
+}
+.RightBtn span {
+ display: block;
+ font-size: 12px;
+ line-height: 16.8px;
+ margin-left: 15px;
+ margin-bottom: 6px;
+ margin-top: 10px;
+}
+.RightBtn a {
+ width: 196px;
+}
+tbody tr:nth-child(even) {
+   background-color: #f4f2f2;
+}
+table{
+	width: 100%;
+}
+table tr{
+	height: 28px;
+}
+table td, table th{
+	font-size: 14px;
+	line-height: 25px;
+}
+table th{
+	background-color: #dcdcdc;
+	padding-left: 10px;
+}
+table td{
+	padding-left: 80px;
+}
+td.clear{
+	clear: both;
+}
+.Icons{
+	float: right;
+}
+.right{
+	background-image: url('images/images/right.jpg');
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	height: 14px;
+	width: 14px;
+	margin-left: 5px;
+}
+.pen{
+
+	background-image: url('images/images/pen.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	height: 14px;
+	width: 16px;
+}
+.delete{
+
+	background-image: url('images/images/delete.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	height: 16px;
+	width: 12px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+.footer{
+	background-color: #dcdcdc;
+	padding: 3px;
+
+}
+.lat{
+	font-size: 14px;
+	margin-right: 28px;
+	margin-left: 8px;
+	line-height: 25px;
+}
+.long{
+	font-size: 14px;
+	line-height: 25px;
+}
