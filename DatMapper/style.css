@@ -1,0 +1,358 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+.Blackheader{
+	background-color: #272727;
+
+}
+.logo{
+	float: left;/*
+    padding-bottom: 5px;
+    padding-top: 5px;*/
+    margin-top: 3px;
+}
+
+.Blackheader ul li a{
+	display: block;
+	float: left;
+	color: #ffffff;
+    font-size: 14px;
+    line-height: 33px;
+    padding-top: 19px;
+    padding-bottom: 14px;
+    padding-right: 17px;
+    padding-left: 14px;
+    border-top: 4px solid #272727;
+}
+.Blackheader ul{
+	float: right;
+}
+
+
+.Blackheader li{
+	float: left;
+}
+
+.Blackheader ul li a:hover{
+	border-top: 4px solid #c0262b;
+	font-weight: bold;	
+	background-color: #1a1a1a;
+}
+.earth{
+	background-image: url('images/earth.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 22px;
+	height: 28px;
+	margin-left: 20px;
+
+}
+.down{
+	background-image: url('images/down.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 8px;
+	height:8px;
+	margin-left: 7px;
+}
+.clear{
+	clear: both;
+}
+.Whiteheader{
+	background-color: #ffffff;
+}
+.Whiteheader h2{
+
+	font-family:RBNo2;
+	font-size: 40px;
+	line-height: 42px;
+	color: #c1272c;
+	font-weight: normal;
+    padding-top: 11px;
+    padding-bottom: 11px;
+
+}
+.dataBackground{
+	background-color: #f2f2f2;
+}
+.dataWrapper{
+	padding-top: 22px;
+	/*padding-left: 55px;
+	padding-right: 55px;*/
+
+    padding-bottom: 660px;
+}/*
+.picture .cam{
+	width: 100%;
+	background-color: #fff;
+}*/
+ul> li>.picture{
+	padding-top: 11px;
+	padding-left: 20px;
+	padding-bottom: 11px;
+	border:1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 16px;
+    padding-right: 16px;
+   
+}
+.picture span{
+	font-size: 16px;
+    line-height: 34px;
+    color: #333333;
+    margin-left: 18px;
+}
+.survey span{
+    font-size: 16px;
+    line-height: 34px;
+    color: #333333;
+    margin-left: 17px;
+}
+
+.dataBackground .dataWrapper .data{
+	float: left;
+}
+
+.dataBackground .dataWrapper .icons{
+	float: right;
+}
+
+.picture .data .photo{
+
+	background-image: url('images/folder.png');
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	height: 29px;
+	width: 34px;
+
+}
+
+.picture .data .cam{
+	background-image: url('images/cam.png');
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	height: 28px;
+	width: 32px;
+
+
+}
+ .list{
+	background-image: url('images/list.png');
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 40px;
+}
+
+.icons .check{
+	background-image: url('images/check.png');
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	height: 23px;
+	width: 23px;
+
+}
+.icons .path{
+	background-image: url('images/path.png');
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	height: 23px;
+	width: 23px;
+    margin-top: 10px;
+}
+.lowerPicture{
+	border:1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.survey{
+	border-bottom: 1px solid #cccccc;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 16px;
+}
+.infoLeft{
+	float: left;
+	width: 260px;
+    border-right: 1px solid #cccccc;
+    padding-right: 49px;
+}
+.calender{
+	background-image: url('images/calender.png');
+	background-repeat: no-repeat;
+    vertical-align: middle;
+    height: 16px;
+    width: 14px;
+
+}
+.infoWrapper .infoLeft h3{
+	font-size: 16px;
+	line-height: 27px;
+	color: #1a1a1a;
+	margin-bottom: 14px;
+
+}
+
+.infoWrapper .infoLeft input{
+	height: 36px;
+	width: 100%;
+	border: 1px solid #808080;
+	border-radius: 5px;
+	margin-bottom: 23px;
+
+
+}
+.infoRight{
+	width: 529px;
+	float: left;
+    margin-left: 53px;
+}
+.infoRight ul li{
+	width: 251px;
+	float: left;
+	font-size: 16px;
+	line-height: 37px;
+	color: #747474;
+	margin-right: 13px;
+}
+
+.infoWrapper .infoRight h3{
+    font-size: 16px;
+    line-height: 27px;
+    color: #1a1a1a;
+    margin-bottom: 14px;
+}
+.checkBox{
+    background-image: url('images/checkBox.png');
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 16px;
+	margin-right: 12px;
+}
+
+.checked{
+    background-image: url('images/checked.png');
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	height: 18px;
+	width: 21px;
+	margin-right: 12px;
+}
+.upload{
+	float: right;
+}
+.detect{
+	font-size: 13px;
+	line-height: 43px;
+    margin-left: 197px;
+    margin-top: 9px;
+}
+ .lowerPicture .upload a{
+	background-color: #bb2527;
+	width: 180px;
+	color: #ffffff;
+	font-size: 13px;
+	line-height: 41px;
+	border-radius: 5px;
+	display: block;
+	text-align: center;
+}
+
+.cloud{
+    background-image: url('images/cloud.png');
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	height: 18px;
+	width: 27px;
+    margin-right: 12px
+}
+.counter{
+
+    background-image: url('images/counter.png');
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	height: 41px;
+	width: 135px;
+    margin-left: 17px;
+}
+
+.infoWrapper{
+    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-left: 26px;
+    padding-right: 20px;
+}
+
+.infoWrapper .infoLeft select{
+    height: 40px;
+    width: 100%;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+
+.infoWrapper .infoLeft select option span{
+	color: #666666;
+	font-size: 16px;
+	line-height: 37px;
+}
+select option{
+
+
+    background-image: url('images/calender.png');
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	height: 15px;
+	width: 16px;
+    margin-left: 17px;
+}
