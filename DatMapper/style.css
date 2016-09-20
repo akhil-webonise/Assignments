@@ -45,33 +45,39 @@ a{
 	float: left;/*
     padding-bottom: 5px;
     padding-top: 5px;*/
-    margin-top: 3px;
+   
 }
 
-.Blackheader ul li a{
+.Blackheader a{
 	display: block;
 	float: left;
 	color: #ffffff;
     font-size: 14px;
     line-height: 33px;
-    padding-top: 19px;
-    padding-bottom: 14px;
-    padding-right: 17px;
-    padding-left: 14px;
+  
+   
     border-top: 4px solid #272727;
 }
 .Blackheader ul{
-	float: right;
+	float: left;
 }
 
 
 .Blackheader li{
 	float: left;
 }
+.menu{
+	float: right;
 
-.Blackheader ul li a:hover{
+   
+}
+.menu a{
+	padding: 18px;
+}
+
+.Blackheader .menu a:hover{
 	border-top: 4px solid #c0262b;
-	font-weight: bold;	
+	
 	background-color: #1a1a1a;
 }
 .earth{
@@ -81,7 +87,6 @@ a{
 	display: inline-block;
 	width: 22px;
 	height: 28px;
-	margin-left: 20px;
 
 }
 .down{
@@ -124,7 +129,7 @@ a{
 	width: 100%;
 	background-color: #fff;
 }*/
-ul> li>.picture{
+.picture{
 	padding-top: 11px;
 	padding-left: 20px;
 	padding-bottom: 11px;
@@ -222,14 +227,6 @@ ul> li>.picture{
     border-right: 1px solid #cccccc;
     padding-right: 49px;
 }
-.calender{
-	background-image: url('images/calender.png');
-	background-repeat: no-repeat;
-    vertical-align: middle;
-    height: 16px;
-    width: 14px;
-
-}
 .infoWrapper .infoLeft h3{
 	font-size: 16px;
 	line-height: 27px;
@@ -244,6 +241,8 @@ ul> li>.picture{
 	border: 1px solid #808080;
 	border-radius: 5px;
 	margin-bottom: 23px;
+    padding-left: 15px;
+    box-sizing: border-box;
 
 
 }
@@ -331,6 +330,7 @@ ul> li>.picture{
     padding-top: 30px;
     padding-left: 26px;
     padding-right: 20px;
+    border-top: 1px solid #cccccc;
 }
 
 .infoWrapper .infoLeft select{
@@ -338,6 +338,11 @@ ul> li>.picture{
     width: 100%;
     border: 1px solid #808080;
     border-radius: 5px;
+    background-image: url('images/calendar.png');
+	background-repeat: no-repeat;
+    padding-left: 28px;
+    background-position: 0 center;
+    color: #666666;
 }
 
 .infoWrapper .infoLeft select option span{
@@ -355,4 +360,15 @@ select option{
 	height: 15px;
 	width: 16px;
     margin-left: 17px;
+}
+.lowerPicture .picture.bordernone{
+	border:0;
+	margin-bottom: 0;
+}
+ 
+.infoRight ul li.clear{
+	float: none;
+	width: 0;
+	margin: 0;
+
 }
