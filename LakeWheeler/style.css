@@ -1,0 +1,473 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+	width: 1165px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+.Blackheader{
+	background-color: #272727;
+
+}
+.logo{
+	float: left;/*
+    padding-bottom: 5px;
+    padding-top: 5px;*/
+   
+}
+
+.Blackheader a{
+	display: block;
+	float: left;
+	color: #ffffff;
+    font-size: 14px;
+    line-height: 33px;
+  
+   
+    border-top: 4px solid #272727;
+}
+.Blackheader ul{
+	float: left;
+}
+
+
+.Blackheader li{
+	float: left;
+}
+.menu{
+	float: right;
+
+   
+}
+.menu a{
+	padding: 18px;
+}
+
+.Blackheader .menu a:hover{
+	border-top: 4px solid #c0262b;
+	
+	background-color: #1a1a1a;
+}
+.earth{
+	background-image: url('images/earth.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 22px;
+	height: 28px;
+
+}
+.down{
+	background-image: url('images/down.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 8px;
+	height:8px;
+	margin-left: 7px;
+}
+.clear{
+	clear: both;
+}
+.Whiteheader{
+	background-color: #ffffff;
+}
+.Whiteheader h2{
+
+	font-family:RBNo2;
+	font-size: 40px;
+	line-height: 42px;
+	color: #c1272c;
+	font-weight: normal;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.boxWrapper{
+	background-color: #f2f2f2;
+	padding-top: 16px;
+	padding-bottom: 100px;
+}
+.leftBox{
+	width: 353px;
+	float: left;
+}
+.detailBox{
+	border:1px solid  #cccccc;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.boxWrapper .leftBox .detailBox ul{
+	float: left;
+
+}
+.data{
+	padding-top: 19px;
+	padding-bottom: 19px;
+}
+
+.boxWrapper .leftBox .detailBox ul li{
+	float: left;
+	padding: 16px 23px 22px 22px;
+	font-size: 16px;
+	line-height: 34.58px;
+    background-color: #e2e2e2;
+	
+}
+.boxWrapper .leftBox .detailBox ul li a{
+    color: #666666;
+}
+.location{
+
+	background-image: url('images/location.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 11px;
+	height:16px;
+}
+li.clear{
+	float: none;
+	padding: 0;
+}
+.leftCol{
+	float: left;
+}
+.rightCol{
+	float: right;
+
+    margin-left: 118px;
+}
+.leftBox .detailBox ul li span{
+	font-size: 14px;
+	line-height: 30px;
+	color: #4d4d4d;
+}
+
+.leftBox .detailBox ul li span .leftCol{
+	float: left;
+}
+
+.leftBox .detailBox ul li span .rightCol{
+	float: right;
+}
+
+.boxWrapper .leftBox .detailBox .data ul{
+	float: none;
+}
+
+.boxWrapper .leftBox .detailBox .data li{
+	float: none;
+    background-color: #fff
+}
+.leftBox .detailBox ul li:hover{
+	background-color: #ffffff;
+}
+
+.boxWrapper .leftBox .detailBox ul li.active{
+	background-color: #fff;
+}
+h3{
+	font-size: 16px;
+	line-height: 34.58px;
+	color: #666666;
+
+}
+.img1{
+	background-image: url('images/img1.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 61px;
+	height: 61px;
+    margin-right: 15px;
+    float: left;
+
+}
+.icon{
+	background-color: #ebebeb;
+	border-radius: 5px;
+	border:1px solid #b9b9b9;
+	padding: 5px;
+	display: inline-block;
+
+}
+.sim{
+
+	background-image: url('images/sim.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+.downArrow{
+
+	background-image: url('images/downArrow.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+}
+.reportBox{
+	border:1px solid  #cccccc;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+
+.reportBox ul li{
+    padding-bottom: 10px;
+    padding-left: 9px;
+    padding-top: 7px;
+    padding-right: 14px;
+    border-bottom: 1px solid #b3b3b3;
+    vertical-align: middle;
+}
+.reportBox ul li span{
+    color: #4d4d4d;
+    width: 95px;
+    display: inline-block;
+    float: left;
+}
+.reportBox img{
+	background-repeat:no-repeat;
+	/*vertical-align: middle;*/
+	
+	width: 61px;
+	height: 61px;
+    margin-right: 15px;
+  }
+.reportBox a{
+	 float: left;
+	 display: inline-block;
+}
+.fix a{
+	margin-left: 8px;
+}
+.reportBox ul li:hover{
+	background-color:#e2e2e2;
+	color: #4d4d4d;
+}
+
+/*
+.img2{
+	background-image: url('images/img2.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 61px;
+	height: 61px;
+    margin-right: 15px;
+    float: left;
+}
+
+.img3{
+	background-image: url('images/img3.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 61px;
+	height: 61px;
+    margin-right: 15px;
+    float: left;
+}*/
+.fix{
+	display: inline-block;
+	float: right;
+}
+.applyBox{
+	border:1px solid  #cccccc;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.applyBox img{
+
+	background-repeat:no-repeat;
+	
+
+	width: 61px;
+	height: 61px;
+    margin-right: 15px;
+    
+}
+.applyBox a{
+	 float: left;
+	 display: inline-block;
+	 vertical-align: middle;
+}
+
+/*
+.img4{
+
+	background-image: url('images/img4.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 61px;
+	height: 61px;
+    margin-right: 15px;
+    float: left;
+}*/
+.applyBox ul li{
+    padding-bottom: 10px;
+    padding-left: 9px;
+    padding-top: 7px;
+    padding-right: 14px;
+    border-bottom: 1px solid #b3b3b3;
+    vertical-align: middle;
+}/*
+.img5{
+	background-image: url('images/img5.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 61px;
+	height: 61px;
+    margin-right: 15px;
+    float: left;
+}*/
+.btn a{
+	padding-left: 25px;
+	padding-bottom: 11px;
+	padding-right: 25px;
+	padding-top: 6px;
+	color: #fff;
+	background-color: #ba2527;
+	font-size: 13px;
+	line-height: 15px;
+	border-radius: 5px;
+	display: inline-block;
+	float: right;
+}
+
+.applyBox ul li span{
+
+    float: left;
+    width: 111px;
+    display: inline-block;
+}
+.rightBox{
+	width: 802px;
+	float: right;
+	margin-left: 10px;
+}
+.commentBox{
+	border:1px solid  #cccccc;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.comment{
+
+	background-image: url('images/comment.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 18px;
+	height: 17px;
+}
+.commentBox span{
+	font-size: 16px;
+	line-height: 34.58px;
+	color: #7a7a7a;
+    margin-left: 11px;
+
+}
+.dataWrapper{
+	padding-top: 17px;
+	padding-left: 23px;
+	padding-bottom: 12px;
+	padding-right: 16px;
+}
+.baloon1{
+	background-image: url('images/baloon1.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 24px;
+	height: 30px;
+    float: left;
+    margin-right: 7px;
+}
+
+.baloon2{
+	background-image: url('images/baloon2.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 24px;
+	height: 30px;
+    float: left;
+    margin-right: 7px;
+}
+.info{
+	float: left;
+}
+.info p{
+	font-size: 14px;
+	line-height: 24px;
+	width: 506px;
+}
+.commentBox .dataWrapper ul li .time span{
+	width: 56px;
+	font-size: 14px;
+	line-height: 25px;
+	display: inline-block;
+}
+.time{
+	float: right;
+
+}
+input{
+    padding-top: 11px;
+    padding-bottom: 25px;
+    padding-left: 17px;
+    padding-right: 460px;
+    border-radius: 5px;
+    border: 1px solid #ededed;
+    float: left;
+}
+.rightBox .commentBox ul li{
+	padding-bottom: 35px;
+}
+span.clear{
+	clear: both;
+}
+.commentHeader{
+    border-bottom: 1px solid #b3b3b3;
+    padding-left: 27px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
