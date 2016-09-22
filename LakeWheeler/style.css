@@ -30,6 +30,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+body{
+	font-family: 'Quicksand', sans-serif;
+}
 .container{
 	width: 1165px;
 	margin: 0 auto;
@@ -114,6 +120,27 @@ a{
     padding-top: 11px;
     padding-bottom: 11px;
 }
+.leftArrow{
+    background-image: url('images/leftArrow.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+    width: 34px;
+    height: 43px;
+}
+.backSurvey{
+	float: right;
+    padding-top: 12px;
+}
+.Whiteheader .icon{
+    margin-top: 19px;
+    margin-left: 17px;
+}
+.Whiteheader span{
+     font-size: 17px;
+     line-height: 33px;
+     color: #000; 
+}
 .boxWrapper{
 	background-color: #f2f2f2;
 	padding-top: 16px;
@@ -136,10 +163,13 @@ a{
 	padding-top: 19px;
 	padding-bottom: 19px;
 }
+.Whiteheader h2{
+	float: left;
+}
 
 .boxWrapper .leftBox .detailBox ul li{
 	float: left;
-	padding: 16px 23px 22px 22px;
+	padding: 0px 23px 0px 22px;
 	font-size: 16px;
 	line-height: 34.58px;
     background-color: #e2e2e2;
@@ -167,7 +197,7 @@ li.clear{
 .rightCol{
 	float: right;
 
-    margin-left: 118px;
+    margin-left: 70px;
 }
 .leftBox .detailBox ul li span{
 	font-size: 14px;
@@ -219,7 +249,7 @@ h3{
 	background-color: #ebebeb;
 	border-radius: 5px;
 	border:1px solid #b9b9b9;
-	padding: 5px;
+	padding: 6px 6px 5px 6px;
 	display: inline-block;
 
 }
@@ -249,7 +279,7 @@ h3{
 
 
 .reportBox ul li{
-    padding-bottom: 10px;
+    padding-bottom: 7px;
     padding-left: 9px;
     padding-top: 7px;
     padding-right: 14px;
@@ -258,9 +288,10 @@ h3{
 }
 .reportBox ul li span{
     color: #4d4d4d;
-    width: 95px;
+    width: 131px;
     display: inline-block;
     float: left;
+    margin-top: 9px;
 }
 .reportBox img{
 	background-repeat:no-repeat;
@@ -269,6 +300,12 @@ h3{
 	width: 61px;
 	height: 61px;
     margin-right: 15px;
+  }
+.reportBox h3{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    border-bottom: 1px solid #b3b3b3;
   }
 .reportBox a{
 	 float: left;
@@ -307,6 +344,7 @@ h3{
 .fix{
 	display: inline-block;
 	float: right;
+    margin-top: 12px;
 }
 .applyBox{
 	border:1px solid  #cccccc;
@@ -325,7 +363,6 @@ h3{
 }
 .applyBox a{
 	 float: left;
-	 display: inline-block;
 	 vertical-align: middle;
 }
 
@@ -342,9 +379,9 @@ h3{
     float: left;
 }*/
 .applyBox ul li{
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     padding-left: 9px;
-    padding-top: 7px;
+    padding-top: 5px;
     padding-right: 14px;
     border-bottom: 1px solid #b3b3b3;
     vertical-align: middle;
@@ -360,24 +397,30 @@ h3{
     float: left;
 }*/
 .btn a{
-	padding-left: 25px;
-	padding-bottom: 11px;
-	padding-right: 25px;
-	padding-top: 6px;
-	color: #fff;
-	background-color: #ba2527;
-	font-size: 13px;
-	line-height: 15px;
-	border-radius: 5px;
-	display: inline-block;
+  
+    padding-bottom: 11px;
+  
+    padding-top: 9px;
+    color: #fff;
+    background-color: #ba2527;
+    font-size: 13px;
+    line-height: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    
+    width: 95px;
+    text-align: center;
+}
+.btn{
 	float: right;
+	margin-top: 15px;
 }
 
 .applyBox ul li span{
 
     float: left;
-    width: 111px;
-    display: inline-block;
+    width: 131px;
+    margin-top: 15px;
 }
 .rightBox{
 	width: 802px;
@@ -408,11 +451,15 @@ h3{
 .dataWrapper{
 	padding-top: 17px;
 	padding-left: 23px;
-	padding-bottom: 12px;
+	padding-bottom: 15px;
 	padding-right: 16px;
-}
-.baloon1{
-	background-image: url('images/baloon1.png');
+}/*
+i{
+	
+	 font-style: none;
+}*/
+.baloon{
+	background-image: url('images/baloon.png');
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	display: inline-block;
@@ -420,6 +467,10 @@ h3{
 	height: 30px;
     float: left;
     margin-right: 7px;
+    color: #ffffff;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
 }
 
 .baloon2{
@@ -444,17 +495,16 @@ h3{
 	width: 56px;
 	font-size: 14px;
 	line-height: 25px;
-	display: inline-block;
+    display: block;
 }
 .time{
 	float: right;
 
 }
 input{
-    padding-top: 11px;
-    padding-bottom: 25px;
+	height: 55px;
     padding-left: 17px;
-    padding-right: 460px;
+    width: 638px;
     border-radius: 5px;
     border: 1px solid #ededed;
     float: left;
@@ -466,8 +516,8 @@ span.clear{
 	clear: both;
 }
 .commentHeader{
-    border-bottom: 1px solid #b3b3b3;
+    border-bottom: 1px solid #b3b3b3; 
     padding-left: 27px;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 8px;
+    padding-top: 5px;
 }
