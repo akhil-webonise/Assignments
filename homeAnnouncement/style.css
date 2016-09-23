@@ -1,0 +1,210 @@
+.logo{
+
+	background-image: url('images/logo.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 58px;
+	height: 65px;
+}
+.head>.navbar{
+	min-height: 72px;
+	margin-bottom: 0px;
+}
+
+.navbar-header .navbar-brand{
+	height: 0px;
+	padding: 4px 33px;
+}
+.active{
+	color: #a01d26;
+}
+.banner{
+	background-image: url("images/banner.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px
+}
+.post{
+
+	background-image: url('images/post.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 29px;
+	height: 22px;
+    margin-right: 23px;
+}
+.handicam{
+
+	background-image: url('images/handicam.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 29px;
+	height: 22px;
+    margin-right: 23px;
+}
+.find{
+
+	background-image: url('images/find.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 29px;
+	height: 22px;
+    margin-right: 23px;
+}
+.banner span{
+	font-size: 16px;
+	line-height: 24px;
+	color: #a01d26;
+}
+.banner .container .jumbotron {
+    padding-top: 14px;
+    padding-bottom: 16px;
+    margin-top: 228px;
+    border-radius: 0px;
+}
+
+.banner .container .jumbotron a{
+	text-decoration: none;
+}
+.golfBanner .container .jumbotron{
+	background-color: #a01d26;
+	border-radius: 0px;
+	text-align: center;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    margin: 0px;
+}
+.speaker{
+
+	background-image: url('images/speaker.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+.golfBanner .jumbotron span{
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
+}
+.line{
+
+	background-image: url('images/line.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 31px;
+	height: 30px;
+	border:1px solid #fff;
+	float: right;
+}
+.golfpic{
+	background-image: url("images/golfBanner.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 125px;
+	margin-bottom: 30px;
+
+    padding-top: 28px;
+    padding-left: 20px;
+    padding-right: 12px;
+	
+}
+.canada{
+
+	background-image: url('images/canada.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 200px;
+	height: 36px;
+    float: left;
+}
+.golfpic span{
+	font-size: 18px;
+	line-height: 24px;
+	color: #000;
+}
+.redBtn{
+	background-color: #a01d26;
+	color: #fff;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 23px;
+    padding-right: 30px;
+    float: right;
+}
+.golfpic a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.para{
+	width: 643px;
+
+}
+.news h3{
+	float: left;
+	font-size: 22px;
+	line-height: 18px;
+	color: #444444;
+}
+.picture .news .dropdown{
+	float: right;
+
+    padding-right: 80px;
+    padding-top: 16px;
+    
+}
+
+ 
+.picture .news .dropdown .btn-primary
+{
+    width: 130px;
+    height: 40px;
+    color: #a01d26;
+    background-color: #fff;
+    border-color: #ddd;
+}
+.pgaBox{
+	border:1px solid #dddddd;
+	width: 370px;
+	height: 288px;
+	margin-top: 15px;
+}
+.pgaBox img{
+    height: 154px;
+    width: 100%;
+}
+.newsBox span{
+	font-size: 13px;
+	line-height: 15px;
+	color: #666666;
+	float: left;
+	padding: 10px;
+	margin: 0px;
+}
+.newsBox h4{
+	font-size: 13px;
+	line-height: 15px;
+	color: #a01d26;
+	float: left;
+	padding: 10px;
+	margin: 0px;
+}
+.newsBox h3{
+	font-size: 22px;
+	line-height: 30px;
+	color: #444444;
+}
+.picture img{
+	width: 805px;
+}
