@@ -2,15 +2,15 @@
 <html>
 <head>
 	<title>Golf Canada</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	
 	<link rel="icon" 
       type="image/png" 
       href="images/logo.png">
        <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
 </head>
 <body>
 <div class="head">
@@ -25,7 +25,7 @@
       <a class="navbar-brand" href="#"><i class="logo"></i></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav mainMenu">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#">PLAY GOLF</a></li>
         <li><a href="#">TEAM CANADA</a></li>
@@ -34,8 +34,8 @@
         <li><a href="#">JOIN NOW</a></li>
         <li><a href="#">SHOP</a></li>
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE<span class="caret"></span></a>
-          <ul class="dropdown-menu">
+          <a href="#">MORE<span class="caret"></span></a>
+          <ul class="dropdown-content">
             <li><a href="#">MENU 1</a></li>
             <li><a href="#">MENU 2</a></li>
             <li><a href="#">MENU 3</a></li>
@@ -47,6 +47,7 @@
 </nav>
 </div><!-- header ends -->
 <div class="banner">
+<img src="images/banner.png">
 <div class="container">
 	<div class="jumbotron">
 	<div class="row">
@@ -104,15 +105,15 @@
 		<img src="images/golf.png" class="img-responsive">
 		<div class="news clearfix">
 			<h3>LATEST NEWS</h3>
-			<div class="dropdown">
-    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Section
-    <span class="caret"></span></button>
-    <ul class="dropdown-menu">
-      <li><a href="#">HTML</a></li>
-      <li><a href="#">CSS</a></li>
-      <li><a href="#">JavaScript</a></li>
-    </ul>
+  <div class="dropdown">
+  <button>sections <span class="caret"></span></button>
+  <div class="dropdown-content">
+    <a href="#">HTML</a>
+    <a href="#">CSS</a>
+    <a href="#">javaScript</a>
   </div>
+</div>
+  <!-- </div> -->
 		</div>
 		<div class="newsBox">
 		<div class="row">
@@ -166,14 +167,72 @@
 			
 		</div><!-- newsBox Ends -->
 	</div><!-- col-md-9 ends -->
+
 	<div class="col-md-3">
 		<img src="images/aug.png" class="img-responsive">
+
+<div class="leaderboard">
+              <div class="pannel">
+                <h2>CURRENT LEADERBOARD</h2>
+                <ul>
+                  <li class="upperLine">
+                    <p>Team Canada – Women’s Western Golf Association National Amateur Championship</p>
+                    <a href="#"  class="blueClr">VIEW LEADERBOARD</a>
+                  </li>
+                  <li class="upperLine">
+                    <p>Team Canada – Women’s Western Golf Association National Amateur Championship</p>
+                    <a href="#"  class="blueClr">VIEW LEADERBOARD</a>
+                  </li>
+                  <li class="upperLine">
+                    <p>Team Canada – Women’s Western Golf Association National Amateur Championship</p>
+                    <a href="#" class="blueClr">VIEW LEADERBOARD</a>
+                  </li>
+                </ul>
+              </div>
+              <button class="btn btn-large btn-block btn-default" type="button" >VIEW ALL LEADERBOARDS </button>
+            </div>	
+
+
+             <div class="championship">
+              <div>
+                <h2 class="heading">GOLF CANADA CHAMPIONSHIPS</h2>
+ 
+                <ul>
+                  <li class="upperLine" >
+                    <h4>CN Future Links Western Championship</h4>
+                    <p>Medicine Hat Golf & Country Club
+                      Medicine Hat, Alberta
+                      Jul 04 - Jul 06
+                    </p>
+                    <a href="#"  class="blueClr">VIEW LEADERBOARD</a>
+                  </li>
+                  <li  class="upperLine">
+                    <h4>CN Future Links Western Championship</h4>
+                    <p>Medicine Hat Golf & Country Club
+                      Medicine Hat, Alberta
+                      Jul 04 - Jul 06
+                    </p>
+                    <a href="#"  class="blueClr">VIEW LEADERBOARD</a>
+                  </li>
+                  <li  class="upperLine">
+                    <h4>CN Future Links Western Championship</h4>
+                    <p>Medicine Hat Golf & Country Club
+                      Medicine Hat, Alberta
+                      Jul 04 - Jul 06
+                    </p>
+                    <a href="#"  class="blueClr" >VIEW LEADERBOARD</a>
+                  </li>
+                </ul>
+              </div>
+
 	</div><!-- col-md-3 end -->
 </div><!-- row close -->
+
 </div>
+
+<button class="btn btn-large btn-block btn-default longBtn" type="button" >LOAD MORE NEWS </button>
 </div>
-
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
 </body>
 </html>
