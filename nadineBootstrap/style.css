@@ -1,0 +1,541 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.
+
+.navbar-toggle {
+padding: 0px;
+}
+.navbar-inverse {
+    border-color: #080808;
+    background-color: #3b3e46;
+    border-radius: 0px;
+  	margin: 0px;
+    border: 0px;
+}
+li{
+list-style: none;
+}
+.location{
+	background-image: url('images/location.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 32px;
+	height: 29px;
+    vertical-align: middle;
+    background-position: 0 center;
+
+}
+.navbar ul li{
+	float: left;
+	color: #fff;
+	margin-right: 40px;
+}
+li.clear{
+	clear: both;
+}
+.call{
+
+	background-image: url('images/call.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 32px;
+	height: 29px;
+	vertical-align: middle;
+    background-position: 0 center;
+}
+.navbar span{
+	text-transform: uppercase;
+}
+.blackHeader .navbar ul{
+	margin: 0px;
+    padding-top: 13px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+}
+.logo img{
+    
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 389px;
+	height: 46px;
+	vertical-align: middle;
+    background-position: 0 center;
+    margin-top: 11px;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.whiteHeader .navbar ul{
+	float: right;
+}
+.whiteHeader button{
+
+    width: 43px;
+    height: 34px;
+}
+.whiteHeader .navbar ul li{
+	font-size: 14px;
+	line-height: 16px;
+	color: #000;
+    margin-right: 29px;
+}
+
+.whiteHeader .navbar ul li a{
+    padding-bottom: 39px;
+    padding-top: 39px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
+}
+
+.whiteHeader .navbar{
+	margin-bottom: 0px;
+	border-radius: 0px;
+
+    background-color: #fff;
+
+    border: 0px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #000;
+    font-weight: bold;
+}
+.banner{
+	background: url('images/banner.png') no-repeat center center;
+	background-size: cover;
+	height: 780px;
+	text-align: center;
+ 
+}
+.heading{
+	font-size: 72px;
+	text-align: center;
+    margin-top: 185px;
+    margin-bottom: 40px;
+	
+
+}
+.heading h1{
+	color: #ffffff;
+    display: inline;
+    font-size: 72px;
+    line-height: 42px;
+   
+}
+.heading strong{
+	font-weight: bold;
+	color: #e63547;
+	line-height: 42px;
+}
+
+
+.banner p{
+	font-size: 26px;
+	line-height: 42px;
+	color: #ffffff;
+    text-align: center;
+    width: 902px;
+    margin: 0 auto;
+}
+button{
+	background-color: #e63547;
+	color: #fff;
+	font-size: 14px;
+	line-height: 16px;
+	border:0px;
+	width: 245px;
+	height: 64px;
+	text-align: center;
+    margin-top: 50px;
+}
+.whiteBox{
+	text-align: center;
+    padding-top: 116px;
+    padding-bottom: 114px;
+}
+.whiteBox h2{
+	font-size: 36px;
+    color: #000000;
+    background: url('images/line.png')no-repeat center bottom;
+    padding-bottom: 36px;
+    margin-bottom: 50px;
+}
+.whiteBox h2 strong{
+	font-size: 36px;
+	font-weight: bold;
+	color: #e63547;
+}
+.building{
+	background: url('images/building.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+}
+
+.weight{
+	background: url('images/weight.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+}
+
+.bulb{
+	background: url('images/bulb.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+}
+.blackBox{
+	background: url('images/mission.png')no-repeat center center;
+	background-size: cover;
+	height: 575px;
+}
+
+.blackBox h2{
+	font-size: 36px;
+	line-height: 25px;
+    color: #ffffff;
+    text-align: center;
+
+    margin-top: 160px;
+    margin-bottom: 50px;
+    
+}
+.blackBox h2 strong{
+	font-size: 36px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #e63547;
+    margin-left: 15px;
+}
+.blackBox p{
+	font-size: 18px;
+	line-height: 32px;
+	color: #ffffff;
+   
+    width: 781px;
+    margin: 0 auto;
+}
+
+.clientBox{
+
+    padding-top: 52px;
+    padding-bottom: 80px;
+}
+
+.clientBox h2{
+	font-size: 36px;
+	line-height: 25px;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 60px;
+    
+ 
+
+}
+
+.clientBox h2 strong{
+
+	font-size: 36px;
+	line-height: 25px;
+	color: #e63547;
+	font-weight: bold;
+	margin-left: 10px;
+
+}
+/*
+.tor img{
+	
+}
+
+.university{
+	
+	background-repeat: no-repeat;
+	display: inline-block;
+    height: 90px;
+    width: 227px;
+}
+
+.hilton{
+	background: url('images/hilton.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+    height: 132px;
+    width: 162px;
+}
+
+.toronto{
+	background: url('images/toronto.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 115px;
+	width: 252px;
+}*/
+.awards{
+	background-color: #2b2c31;
+    padding-top: 73px;
+    padding-bottom: 64px;
+}
+.awards h3{
+	font-size: 14px;
+	line-height: 25px;
+	color: #fff;
+	border-bottom: 2px solid #2f3035;
+	font-weight: bold;
+}
+.awards span{
+	font-size: 14px;
+	line-height: 35px;
+	color: #fff;
+}/*
+.consult{
+
+	background: url('images/consult.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+    height: 108px;
+    width: 207px;
+}
+
+.proff{
+
+	background: url('images/proff.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+    height: 108px;
+    width: 230px;
+}
+
+.nfpa{
+
+	background: url('images/nfpa.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+    height: 115px;
+    width: 205px;
+}
+
+.iso{
+
+	background: url('images/iso.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+    height: 131px;
+    width: 230px;
+}*/
+.awards .about{
+	display: block;
+}
+.add{
+	display: block;
+}
+.phone{
+	display: block;
+	margin-top: 40px;
+}
+.footer{
+	background-color: #26272b;
+	border:0px;
+    padding-top: 43px;
+    padding-bottom: 25px;
+}
+.footer span{
+	color: #83858c;
+
+}
+
+
+@media only screen and (max-width: 1023px){
+
+.blackHeader .navbar ul{
+	padding: 0px;
+}
+.navbar span{
+	font-size: 6px;
+}
+.navbar{
+	min-height: 0px;
+}
+.banner p{
+	width: auto;
+}
+.blackBox p{
+	width: auto;
+	font-size: 14px;
+}
+.logo{
+    margin-top: 6px;
+}
+.logo img{
+	width: 280px;
+}
+.whiteHeader .navbar ul li a{
+	padding-bottom: 4px;
+	padding-top: 0px;
+}
+.whiteHeader .navbar ul{
+
+    width: 423px;
+}
+.navbar-brand{
+	padding: 0px;
+	
+}
+.whiteBox p{
+	margin-bottom: 32px;
+}
+.tor img, .university img, .hilton img, .toronto img{
+	margin-bottom: 30px;
+}
+.clientBox{
+	padding-bottom: 25px;
+}
+.awards .info{
+	display: block;
+}
+}/*1023 media ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+
+
+.whiteHeader .navbar ul {
+    float: right;
+    width: 220px;
+    text-align: center;
+}
+.whiteHeader button{
+    margin-top: 22px;
+}
+.blackHeader{
+	display: none;
+}
+.logo{
+	margin-top: 0px;
+}
+.logo img{
+    display: inline-block;
+    width: 263px;
+    height: 37px;
+    vertical-align: middle;
+    margin-top: 0px;
+   
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: red;
+}
+
+.navbar-default .navbar-toggle {
+    border:0px;
+}
+
+.navbar-default .navbar-brand {
+    padding-top: 27px;
+    padding-bottom: 43px;
+}
+.banner .heading{
+	font-size: 36px;
+}
+.heading h1{
+    font-size: 36px;
+    line-height: 24px;
+}
+.heading{
+	margin-bottom: 14px;
+	padding: 0px;
+	margin-top: 0px;
+}
+.heading strong{
+
+    line-height: 24px;
+}
+.banner{
+	height: auto;
+	padding-top: 32px;
+	padding-bottom: 15px;
+}
+.banner p{
+    font-size: 12px;
+    line-height: 18px;
+}
+.banner button{
+    font-size: 9px;
+    line-height: 11px;
+    width: 144px;
+    height: 39px;
+    margin-top: 20px;
+}
+.whiteBox h3{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 22px;
+}
+.whiteBox{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.whiteBox p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #616161;
+    width: 304px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+.blackBox{
+    height: auto;
+    padding-top: 82px;
+    padding-bottom: 82px;
+}
+.blackBox h2{
+	margin-top: 0px;
+	margin-bottom: 60px;
+}
+.clientBox h2 strong{
+    display: block;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.tor img, .university img, .hilton img, .toronto img{
+    height: 73px;
+    width: 150px;
+}
+
+.clientBox h2{
+	margin-bottom: 45px;
+}
+
+.consult img, .proff img, .nfpa img, .iso img{
+    height: 112px;
+    width: 152px;
+}
+.awards{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.footer{
+	padding-top: 25px;
+}
+}/*media ends*/
