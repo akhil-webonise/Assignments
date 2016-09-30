@@ -1,0 +1,480 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+.container{
+	width: 1165px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+.Blackheader{
+	background-color: #282828;
+
+}
+.logo{
+	float: left;
+}
+
+.Blackheader a{
+	display: block;
+	float: left;
+	color: #ffffff;
+    font-size: 14px;
+    line-height: 33px;
+  
+   
+    border-top: 4px solid #282828;
+}
+.Blackheader ul{
+	float: left;
+}
+
+
+.Blackheader li{
+	float: left;
+}
+.menu{
+	float: right;
+
+   
+}
+.menu a{
+	padding: 18px;
+}
+
+.Blackheader .menu a:hover{
+	border-top: 4px solid #b8272b;
+	
+	background-color: #1a1a1a;
+}
+.notification{
+	background-image: url('images/notification.jpg');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 37px;
+	height: 30px;
+
+}
+.men{
+	background-image: url('images/anirbans.jpg');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	width: 24px;
+	height:24px;
+	margin-left: 7px;
+}
+.clear{
+	clear: both;
+}
+
+
+.Whiteheader{
+	background-color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d4d4d4;
+}
+.leftArrow{
+    background-image: url('images/leftArrow.jpg');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin-right: 15px;
+}
+.Whiteheader span{
+	font-size: 18px;
+	line-height: 20px;
+	color: #242424;
+}
+.Whiteheader .back{
+    float: left;
+    margin-top: 9px;
+    margin-left: 19px;
+}
+.upload{
+	width: 175px;
+	background-color: #b5262c;
+	color: #fff;
+	border-radius: 5px;	
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 19px;
+	padding-right: 25px;
+	float: right;
+}
+.cloud{
+    background-image: url('images/cloud.jpg');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+    width: 22px;
+    height: 14px;	
+}
+.boxWrapper{
+	background-color: #f2f2f2;
+	padding-top: 13px;
+	padding-bottom: 50px;
+}
+.leftBox{
+	width: 557px;
+	float: left;
+}
+.rightBox{
+	width: 592px;
+	float: right;
+	margin-left: 16px;
+}
+.siteDetail{
+	border: 1px solid #d4d4d4;
+	background-color: #fff;
+	margin-bottom: 13px;
+}
+.write{
+    background-image: url('images/write.jpg');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+    width: 16px;
+    height: 16px;	
+}
+.edit{
+	font-size: 14px;
+	line-height: 31px;
+	color: #101010;
+	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	float: right;
+	padding: 0px 10px 0px 9px;
+	background: linear-gradient(#f9f9f9, #eaeaea);
+}
+.siteDetail h4{
+	font-size: 16px;
+	line-height: 18px;
+	color: #000;
+	float: left;
+	margin-top: 12px;
+}
+.upperSection{
+	padding: 14px 9px 14px 18px;
+	border-bottom: 1px solid #d4d4d4;
+	background: linear-gradient(#fefefe, #f7f7f7);
+}
+.lowerSection{
+	padding: 28px 67px 33px 33px;
+}
+.lowerSection span{
+	font-size: 12px;
+	line-height: 18px;
+	color: #818181;
+}
+.lowerSection h3{
+	font-size: 20px;
+	line-height: 22px;
+	color: #000;
+}
+.location{
+
+    background-image: url('images/location.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+    width: 11px;
+    height: 15px;	
+}
+.leftCol{
+	float: left;
+}
+.rightCol{
+	float: right;
+}
+.lowerSection ul li{
+	float: left;
+}
+.siteDetail .lowerSection ul li.clear{
+	clear: both;
+	margin: 0;
+}
+ul li.group{
+	float:right; 
+}
+ul li.size{
+	margin-left: 65px;
+}
+
+.siteDetail .lowerSection ul{
+	margin-top: 30px;
+}
+.surveyBox{
+
+	border: 1px solid #d4d4d4;
+	background-color: #fff;
+	margin-bottom: 16px;
+
+}
+.oval{
+	font-size: 14px;
+	line-height: 16px;
+	color: #505050;
+	border-radius: 8px;
+	border:1px solid #dedede;
+	margin-left: 13px;
+	padding: 5px;
+}
+.surveyBox .upperSection .survey{
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+}
+.sort{
+	border:1px solid #dedede;
+	border-radius: 5px;
+	background: linear-gradient(#f9f9f9, #eaeaea);
+	color: #000;
+	padding: 5px 11px 5px 17px;
+	display: inline-block;
+	margin-left: 6px;
+
+}
+.down{
+
+    background-image: url('images/down.jpg');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+    width: 10px;
+    height: 7px;	
+    margin-left: 12px;
+}
+.surveyBox ul li .direction{
+
+    background-image: url('images/direction.jpg');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+    width: 6px;
+    height: 10px;
+    float: left;
+    margin-top: 3px;	
+}
+
+.surveyBox ul li h5{
+	font-size: 14px;
+	line-height: 16px;
+	color: #000;
+	float: left;
+}
+.date{
+	display: block;
+	font-size: 14px;
+	line-height: 16px;
+	color: #555555;
+}
+
+.surveyBox ul li{
+	border-bottom: 1px solid #d4d4d4;
+
+    padding: 17px 11px;
+}
+
+.surveyBox ul li h4{
+	font-size: 14px;
+	line-height: 16px;
+	color: #000;
+	font-weight: bold;
+    float: left;
+    margin-left: 100px;
+}
+.field{
+
+    background-image: url('images/field.jpg');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 9px;	
+}
+
+.row{
+
+    background-image: url('images/row.jpg');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 9px;	
+}
+
+.plant{
+    background-image: url('images/plant.jpg');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 9px;	
+}
+.plus{
+	border: 1px solid #c9c9c9;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #c1272d;
+	padding: 11px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.leftSec{
+	display: inline-block;margin-left: 17px;
+
+}
+.imgWrap{
+	display: inline-block;
+}
+
+
+.applyBox{
+	border:1px solid  #cccccc;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.applyBox img{
+
+	background-repeat:no-repeat;
+	
+
+	width: 61px;
+	height: 61px;
+    margin-right: 15px;
+    
+}
+.applyBox a{
+	 float: left;
+	 vertical-align: middle;
+}
+
+.applyBox ul li{
+    padding-bottom: 8px;
+    padding-left: 9px;
+    padding-top: 5px;
+    padding-right: 14px;
+    border-bottom: 1px solid #b3b3b3;
+    vertical-align: middle;
+}
+.btn a{
+  
+    padding-bottom: 11px;
+  
+    padding-top: 9px;
+    color: #fff;
+    background-color: #ba2527;
+    font-size: 13px;
+    line-height: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    
+    width: 95px;
+    text-align: center;
+}
+.btn{
+	float: right;
+	margin-top: 15px;
+}
+
+.applyBox ul li span{
+
+    float: left;
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000;
+}
+.applyBox .applyHeader .leftTab{
+	float: left;
+}
+
+.applyBox .applyHeader .rightTab{
+	float: right;
+}
+
+.applyBox .applyHeader .leftTab a{
+	padding: 24px 22px 22px 21px;
+	border-right: 1px solid #d4d4d4;
+	text-decoration: none;
+}
+
+.applyBox .applyHeader .leftTab a:hover{
+     background-color: #fff;
+}
+
+.applyBox .applyHeader {
+	border-bottom: 1px solid #d4d4d4; 
+	background: linear-gradient(#fefefe, #f7f7f7);
+}
+
+.applyBox .applyHeader .rightTab a{
+	padding: 24px 22px 22px 21px;
+	color: #c1272d;
+
+}
+
+.applyBox .applyHeader .leftTab .active{
+	background-color: #ffffff;
+	/*border-bottom: 2px solid white;*/
+}
+
+.applyBox .applyHeader .leftTab .active.borderzero{
+	border-bottom: none;
+}
+.activityBox{
+
+	border: 1px solid #d4d4d4;
+	background-color: #fff;
+	margin-top: 12px;
+}
+.update{
+	border:1px solid #dedede;
+	border-radius: 5px;
+	background: linear-gradient(#f9f9f9, #eaeaea);
+	color: #000;
+	display: inline-block;
+    padding: 11px 14px 8px 18px;
+}
