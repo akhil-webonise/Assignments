@@ -451,12 +451,12 @@ display: block;
 	 vertical-align: middle;
 }
 
-.applyBox ul li{
+.applyBox >ul li{
     padding-bottom: 6px;
     padding-left: 9px;
     padding-top: 6px;
     padding-right: 14px;
-    border-bottom: 1px solid #b3b3b3;
+    border-top: 1px solid #b3b3b3;
     vertical-align: middle;
 }
 .btn a{
@@ -493,49 +493,59 @@ display: block;
 	line-height: 17px;
 	color: #505050;
 }
-
 .applyBox .applyHeader .rightTab{
 	float: right;
 }
 
-.applyBox .applyHeader .leftTab a{
-	padding: 24px 22px 22px 21px;
-	/*border-right: 1px solid #d4d4d4;*/
-	text-decoration: none;
-    border:1px solid #d4d4d4;
-    display: block;
+.applyBox .applyHeader .leftTab ul{
+	float: left;
 }
 
-.applyBox .applyHeader .leftTab a:hover{
-     background-color: #fff;
-     border-bottom: none;
+.applyBox .applyHeader .leftTab ul li{
+	float: left;
 }
 
 .applyBox .applyHeader {
-	/*border-bottom: 1px solid #d4d4d4; */
+	
 	background: linear-gradient(#fefefe, #f7f7f7);
 }
+  ul.margin
+    {
+    	margin-top: -2px;
+    	
+    }
+    .applyBox .applyHeader .leftTab a
+    {
+    	border:1px solid #b3b3b3;
+    	border-top: 0px;
 
-.applyBox .applyHeader .rightTab a{
-	padding: 24px 22px 22px 21px;
-	color: #c1272d;
-	font-weight: bold;
-	display: block;
-/*border:1px solid red;*/
-}
-.applyBox ul{
-	border: 1px solid #fff;
-    margin-top: -2px;}
+	    padding-top: 18px;
+	    padding-right: 25px;
+	    padding-bottom: 20px;
+	    padding-left: 20px;
+        border-left: 0px;
 
-.applyBox .applyHeader .leftTab .active{
-	background-color: #ffffff;
-	border-bottom: 1px solid white;
+	    color: #505050;
+	    font-weight: bold;
+	    font-size: 15px;
+    }
+    .applyBox .applyHeader .leftTab a:hover
+    {
+    	border-bottom: 0;
+    	background-color: #fff;
+    }
+    .applyBox .applyHeader .rightTab a{
+    	padding-top: 18px;
+	    padding-right: 25px;
+	    padding-bottom: 20px;
+	    padding-left: 20px;
+    }
+    .applyBox .applyHeader .leftTab .active{
 
-}
-/*
-.applyBox .applyHeader .leftTab .active.borderzero{
-	border-bottom: none;
-}*/
+    background-color: #fff;
+    border-bottom: 0px;
+    }
+
 .activityBox{
 
 	border: 1px solid #d4d4d4;
@@ -558,6 +568,7 @@ display: block;
 	font-size: 15px;
 	line-height: 17px;
 	color: #505050;
+	font-weight: bold;
 }
 
 .activityBox .upperSection .leftCol{
