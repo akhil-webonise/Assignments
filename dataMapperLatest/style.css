@@ -299,7 +299,7 @@ ul li.size{
 .sortDropdown{
 	position: absolute;
 	display: none;
-	width:1px;
+	width:180px;
 	right: 0px;
 	z-index: 1;
 	background: #fff;
@@ -482,7 +482,7 @@ display: block;
 .applyBox ul li span{
 
     float: left;
-    margin-top: 22px;
+    margin-top: 15px;
     font-size: 15px;
     line-height: 18px;
     color: #000;
