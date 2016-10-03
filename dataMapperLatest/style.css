@@ -203,12 +203,12 @@ a{
 	margin-top: 7px;
 }
 .upperSection{
-	padding: 10px 9px 10px 18px;
+	padding: 9px 9px 9px 18px;
 	border-bottom: 1px solid #d4d4d4;
 	background: linear-gradient(#fefefe, #f7f7f7);
 }
 .lowerSection{
-	padding: 20px 67px 20px 33px;
+	padding: 17px 67px 17px 33px;
 }
 .lowerSection span{
 	font-size: 12px;
@@ -354,6 +354,7 @@ display: block;
 	line-height: 16px;
 	color: #000;
 	float: left;
+	margin-bottom: 2px;
 }
 .date{
 	display: block;
@@ -365,7 +366,7 @@ display: block;
 .surveyBox ul li{
 	border-bottom: 1px solid #d4d4d4;
 
-    padding: 17px 11px;
+    padding: 9px 11px;
 }
 .surveyBox ul li .leftCol{
     width: 230px;
@@ -450,9 +451,9 @@ display: block;
 }
 
 .applyBox ul li{
-    padding-bottom: 8px;
+    padding-bottom: 6px;
     padding-left: 9px;
-    padding-top: 5px;
+    padding-top: 6px;
     padding-right: 14px;
     border-bottom: 1px solid #b3b3b3;
     vertical-align: middle;
@@ -596,7 +597,7 @@ display: block;
 }
 
 .activityBox ul li{
-    padding: 20px 20px 18px 20px;
+    padding: 15px 20px 16px 20px;
     border-bottom: 1px solid #d1d1d1;
 }
 .blackText{
@@ -627,4 +628,21 @@ font-size: 15px
 
 .activityBox ul li>p{
 	margin-top: 15px;
+    width: 524px;
+    margin-left: 30px;
+}
+.activityBox img{
+	margin-left: 30px;
+}
+.footer{
+	background-color: #282828;
+	text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.whiteText{
+	color: #fff;
+	margin-right: 2px;
 }
