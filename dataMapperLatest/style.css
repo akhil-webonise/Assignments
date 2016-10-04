@@ -41,7 +41,7 @@ body{
 a{
 	text-decoration: none;
 }
-.Blackheader{
+.blackHeader{
 	background-color: #282828;
 
 }
@@ -49,22 +49,21 @@ a{
 	float: left;
 }
 
-.Blackheader a{
+.blackHeader a{
 	display: block;
 	float: left;
 	color: #ffffff;
     font-size: 14px;
-    line-height: 33px;
-  
-   
+    line-height: 29px;
     border-top: 4px solid #282828;
+    font-weight: 700;
 }
-.Blackheader ul{
+.blackHeader ul{
 	float: left;
 }
 
 
-.Blackheader li{
+.blackHeader li{
 	float: left;
 }
 .menu{
@@ -76,7 +75,7 @@ a{
 	padding: 18px;
 }
 
-.Blackheader .menu a:hover{
+.blackHeader .menu a:hover{
 	border-top: 4px solid #b8272b;
 	
 	background-color: #1a1a1a;
@@ -99,15 +98,19 @@ a{
 	height:24px;
 	margin-left: 7px;
 }
+.blackHeader .headActive{
+	border-top: 4px solid #b8272b;
+    background-color: #1a1a1a;
+}
 .clear{
 	clear: both;
 }
 
 
-.Whiteheader{
+.whiteHeader{
 	background-color: #ffffff;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 14px;
+    padding-bottom: 16px;
     border-bottom: 1px solid #d4d4d4;
 }
 .leftArrow{
@@ -119,15 +122,16 @@ a{
     height: 23px;
     margin-right: 15px;
 }
-.Whiteheader span{
+.whiteHeader .back span{
 	font-size: 18px;
 	line-height: 20px;
 	color: #242424;
+    display: inline-block;
+    vertical-align: middle;
 }
-.Whiteheader .back{
+.whiteHeader .back{
     float: left;
     margin-top: 9px;
-    margin-left: 19px;
 }
 .upload{
 	
@@ -135,12 +139,16 @@ a{
 	color: #fff;
 	border-radius: 5px;	
 	float: right;
-    width: 174px;
+    width: 175px;
     text-align: center;
     font-size: 15px;
     line-height: 24px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 6px;
+    font-weight: 700;
+}
+.upload:hover{
+	background-color: #ad2020;
 }
 .cloud{
     background-image: url('images/cloud.jpg');
@@ -150,19 +158,23 @@ a{
     width: 22px;
     height: 14px;	
 }
+.whiteHeader .upload span{
+    display: inline-block;
+    vertical-align: middle;
+}
 .boxWrapper{
 	background-color: #f2f2f2;
 	padding-top: 13px;
 	padding-bottom: 50px;
 }
 .leftBox{
-	width: 557px;
+	width: 559px;
 	float: left;
 }
 .rightBox{
 	width: 592px;
 	float: right;
-	margin-left: 16px;
+	margin-left: 14px;
 }
 .siteDetail{
 	border: 1px solid #d4d4d4;
@@ -177,23 +189,31 @@ a{
 	display: inline-block;
     width: 20px;
     height: 16px;	
-    margin-bottom: 4px;
 }
 .edit{
 	font-size: 13px;
-	line-height: 31px;
+	line-height: 25px;
 	color: #101010;
 	border: 1px solid #d4d4d4;
 	border-radius: 5px;
 	float: right;
-	padding: 0px 10px 0px 9px;
+    width: 65px;
+    text-align: center;
 	background: linear-gradient(#f9f9f9, #eaeaea);
+}
+.edit:hover{
+    background: linear-gradient(#fbfbfb, #afafb0);
+}
+.edit span{
+	display: inline-block;
+	vertical-align: middle;
 }
 .locationBlock{
 	display: block;
 }
 .headingInline{
-	display: inline;
+	display: inline-block;
+	vertical-align: middle;
 }
 .siteDetail h4{
 	font-size: 16px;
@@ -201,24 +221,31 @@ a{
 	color: #000;
 	float: left;
 	margin-top: 7px;
+	font-weight: 700;
 }
-.upperSection{
-	padding: 9px 9px 9px 18px;
+.siteDetail .upperSection{
+	padding: 11px 9px 13px 18px;
 	border-bottom: 1px solid #d4d4d4;
 	background: linear-gradient(#fefefe, #f7f7f7);
 }
-.lowerSection{
-	padding: 17px 67px 17px 33px;
+.surveyBox .upperSection{
+	padding: 10px 9px 10px 18px;
+	border-bottom: 1px solid #d4d4d4;
+	background: linear-gradient(#fefefe, #f7f7f7);
 }
-.lowerSection span{
-	font-size: 12px;
-	line-height: 18px;
-	color: #818181;
+.activityBox .upperSection{
+	padding: 10px 9px 11px 18px;
+	border-bottom: 1px solid #d4d4d4;
+	background: linear-gradient(#fefefe, #f7f7f7);
+} 
+.lowerSection{
+	padding: 15px 67px 15px 33px;
 }
 .lowerSection h3{
 	font-size: 20px;
 	line-height: 22px;
 	color: #000;
+	font-weight: 400;
 }
 .location{
 
@@ -227,7 +254,11 @@ a{
 	vertical-align: middle;
 	display: inline-block;
     width: 12px;
-    height: 18px;	
+    height: 13px;	
+}
+
+.siteDetail label.blackClr{
+	color: #000;
 }
 .leftCol{
 	float: left;
@@ -235,23 +266,33 @@ a{
 .rightCol{
 	float: right;
 }
-.lowerSection ul li{
-	float: left;
-}
 .siteDetail .lowerSection ul li.clear{
 	clear: both;
 	margin: 0;
 	float: none;
+	width: 0px;
 }
-ul li.group{
-	float:right; 
+.siteDetail .create{
+    width: 188px;
+    margin: 0px;
+    float: left;
 }
-ul li.size{
-	margin-left: 65px;
+.siteDetail .size{
+    width: 149px;
+    float: left;
 }
-
+.siteDetail .group{
+    float: left;
+    width: 101px;
+}
+.siteDetail label{
+	font-size: 12px;
+	line-height: 18px;
+	color: #818181;
+	font-weight: 700;
+}
 .siteDetail .lowerSection ul{
-	margin-top: 30px;
+	margin-top: 35px;
 }
 .surveyBox{
 
@@ -269,6 +310,7 @@ ul li.size{
 	border:1px solid #dedede;
 	margin-left: 13px;
     padding: 2px 10px 2px 10px;
+    font-weight: 700;
 }
 .surveyBox .upperSection .survey{
 	font-size: 16px;
@@ -286,10 +328,10 @@ ul li.size{
 	color: #000;
 	display: inline-block;
 	margin-left: 6px;
-    width: 82px;
+    width: 77px;
     text-align: center;
-    padding-bottom: 6px;
-    padding-top: 6px;
+    font-size: 14px;
+    line-height: 31px;
 
 }
 .dropDown{
@@ -308,7 +350,7 @@ ul li.size{
 }
 .surveyBox .upperSection .rightCol .dropDown .sortDropdown ul li{
 	border-bottom: 1px solid #d4d4d4;
-	padding: 5px;
+	padding: 0px;
 }
 
 .sortDropdown li a
@@ -317,7 +359,7 @@ ul li.size{
     font-size: 14px;
     line-height: 16px;
     color:#505050;
-    padding: 10px;
+    padding: 13px;
 }
 .dropDown:hover .sortDropdown
 {
@@ -325,6 +367,15 @@ display: block;
 }
 .surveyBox .upperSection .rightCol .dropDown .sortDropdown ul li a:hover{
 	background-color: #c9c9c9;
+}
+.sensorDown{
+	background-image: url('images/down.jpg');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+    width: 10px;
+    height: 7px;	
+    margin-left: 80px;
 }
 
 .down{
@@ -341,8 +392,6 @@ display: block;
 
     background-image: url('images/direction.jpg');
 	background-repeat: no-repeat;
-	vertical-align: middle;
-	display: inline-block;
     width: 6px;
     height: 10px;
     float: left;
@@ -371,7 +420,7 @@ display: block;
 .surveyBox ul li .leftCol{
     width: 230px;
 }
-.surveyBox ul li h4{
+.surveyBox ul li .rgb{
 	font-size: 14px;
 	line-height: 16px;
 	color: #000;
@@ -379,38 +428,11 @@ display: block;
     float: left;
     margin-top: 4px;
  
-}
-.field{
-
-    background-image: url('images/field.jpg');
-	background-repeat: no-repeat;
-	vertical-align: middle;
-	width: 36px;
-    height: 36px;
-    margin-right: 9px;
-    float: left;	
-}
-
-.row{
-
-    background-image: url('images/row.jpg');
-	background-repeat: no-repeat;
-	vertical-align: middle;
+}/*
+.surveyBox ul li img{
 	float: left;
-    width: 36px;
-    height: 36px;
-    margin-right: 9px;	
-}
+	margin-right:*/ 
 
-.plant{
-    background-image: url('images/plant.jpg');
-	background-repeat: no-repeat;
-	vertical-align: middle;
-	float: left;
-    width: 36px;
-    height: 36px;
-    margin-right: 9px;	
-}
 .plus{
 	border: 1px solid #c9c9c9;
 	border-radius: 5px;
@@ -421,12 +443,28 @@ display: block;
 	font-weight: bold;
 	float: left;
 }
+
+.surveyBox ul li .rightCol ul{
+	width: 185px;
+}
+.surveyBox ul li .rightCol ul li{
+	border:0px;
+	float: left;
+	padding: 0px;
+	margin-right: 9px;
+}
+.surveyBox ul li .rightCol ul li.clr{
+    clear: both;
+    float: none;
+    margin: 0px;
+}
 .leftSec{
 	display: inline-block;margin-left: 17px;
 
 }
 .imgWrap{
 	width: 177px;
+
 }
 
 
@@ -439,41 +477,46 @@ display: block;
 .applyBox img{
 
 	background-repeat:no-repeat;
-	
-
 	width: 61px;
 	height: 61px;
-    margin-right: 15px;
     
 }
 .applyBox a{
 	 float: left;
-	 vertical-align: middle;
+	
 }
-
+.applyBox .margin a{
+	margin-right: 15px;
+}
 .applyBox >ul li{
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     padding-left: 9px;
-    padding-top: 6px;
+    padding-top: 7px;
     padding-right: 14px;
     border-top: 1px solid #b3b3b3;
-    vertical-align: middle;
 }
-.btn a{
-  
-    padding-bottom: 11px;
-  
-    padding-top: 9px;
-    color: #fff;
+ .applyBox .btn{
     background-color: #ba2527;
-    font-size: 13px;
-    line-height: 15px;
     border-radius: 5px;
-    display: inline-block;
-    
-    width: 95px;
+    float: right;
+    width: 84px;
     text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 0px;
 }
+.applyBox .btn:hover{
+	background-color: #ad2020;
+}
+
+ .applyBox .btn span{
+ 	color: #fff;
+ 	font-size: 15px;
+ 	line-height: 24px;
+    float: none;
+    margin: 0px;
+    font-weight: 700;
+ }
 .btn{
 	float: right;
 	margin-top: 15px;
@@ -484,8 +527,9 @@ display: block;
     float: left;
     margin-top: 15px;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 24px;
     color: #000;
+    font-weight: 400;
 }
 .applyBox .applyHeader .leftTab{
 	float: left;
@@ -516,29 +560,29 @@ display: block;
     }
     .applyBox .applyHeader .leftTab a
     {
+    	
     	border:1px solid #b3b3b3;
-    	border-top: 0px;
-
-	    padding-top: 18px;
+	    padding-top: 17px;
 	    padding-right: 25px;
-	    padding-bottom: 20px;
+	    padding-bottom: 19px;
 	    padding-left: 20px;
-        border-left: 0px;
-
+       
 	    color: #505050;
 	    font-weight: bold;
 	    font-size: 15px;
     }
     .applyBox .applyHeader .leftTab a:hover
     {
-    	border-bottom: 0;
-    	background-color: #fff;
+    border-bottom: none;
+    background-color: #fff;
+    	
     }
     .applyBox .applyHeader .rightTab a{
     	padding-top: 18px;
 	    padding-right: 25px;
 	    padding-bottom: 20px;
 	    padding-left: 20px;
+	    margin-right: 0px;
     }
     .applyBox .applyHeader .leftTab .active{
 
@@ -556,13 +600,16 @@ display: block;
 .update{
 	border:1px solid #dedede;
 	border-radius: 5px;
-	background: linear-gradient(#f9f9f9, #eaeaea);
+	background: linear-gradient(#fbfbfb, #eaeaea);
 	color: #000;
 	display: inline-block;
-    width: 146px;
+    width: 140px;
     text-align: center;
     font-size: 14px;
     line-height: 30px;
+}
+.activityBox .upperSection .update:hover{
+	background: linear-gradient(#fbfbfb, #afafb0);
 }
 .activityBox .upperSection .leftCol span{
 	font-size: 15px;
@@ -585,7 +632,6 @@ display: block;
 
     background-image: url('images/comment.jpg');
 	background-repeat: no-repeat;
-	vertical-align: middle;
 	float: left;
     width: 17px;
     height: 18px;
@@ -601,6 +647,7 @@ display: block;
 }
 .redText{
 	color: #c1272d;
+	font-weight: 700;
 }
 .activityBox ul{
 
@@ -620,7 +667,6 @@ display: block;
 
     background-image: url('images/right.jpg');
 	background-repeat: no-repeat;
-	vertical-align: middle;
 	float: left;
     width: 14px;
     height: 14px;
@@ -630,11 +676,12 @@ display: block;
 	color: #000;
 	font-weight: bold;
 	text-align: center;
-	padding-top: 16px;
-	padding-bottom: 16px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+    background: linear-gradient(#fefefe, #f7f7f7);
 }
 .lowerActivity span{ 
-font-size: 15px
+    font-size: 15px
 	line-height:17px;
 }
 
@@ -643,7 +690,7 @@ font-size: 15px
     width: 524px;
     margin-left: 30px;
 }
-.activityBox img{
+.activityBox .sample{
 	margin-left: 30px;
 }
 .footer{
@@ -659,5 +706,11 @@ font-size: 15px
 	margin-right: 2px;
 }
 .rightBox> a{
+	display: block;
+}
+.activityBox ul li .rightActivity span{
+	text-align: right;
+}
+.activityBox .middle a{
 	display: block;
 }

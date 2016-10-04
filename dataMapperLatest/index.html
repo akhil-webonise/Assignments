@@ -6,10 +6,10 @@
 	<link rel="icon" 
       type="image/png" 
       href="images/favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
 </head>
 <body>
-<div class="Blackheader">
+<div class="blackHeader">
 <div class="container">
 <div class="logo">
 <a href="#"><img src="images/logo.png"></a>
@@ -17,7 +17,7 @@
 <div class="menu">
 <ul>
 <li><a href="#">Maps</a></li>
-<li><a href="#">Sites</a></li>
+<li><a href="#" class="headActive">Sites</a></li>
 <li><a href="#">Algorithms</a></li>
 <li><a href="#">Downloads</a></li>
 <li><a href="#">Contact Us</a></li>
@@ -29,10 +29,13 @@
 </div>
 </div><!-- Blackheader Ends -->
 
-<div class="Whiteheader">
+<div class="whiteHeader">
 <div class="container">
 <a href="#" class="back"><i class="leftArrow"></i><span>Back to Sites</span></a>
-<a href="#" class="upload"><i class="cloud"></i> Upload Survey</a>
+<a href="#" class="upload">
+<i class="cloud"></i> 
+<span>Upload Survey</span>
+</a>
 
 <div class="clear"></div>
 </div>
@@ -43,26 +46,29 @@
 <div class="siteDetail">
 <div class="upperSection">
 <h4>Site Details</h4>
-<a href="#" class="edit"><i class="write"></i>Edit</a>
+<a href="#" class="edit">
+<i class="write"></i>
+<span>Edit</span>
+</a>
 <div class="clear"></div>	
 </div>
 <div class="lowerSection">
 <div class="leftCol">
-<span>SITENAME</span>
+<label>SITENAME</label>
 <h3>Corn ABCD Field</h3>	
 </div>
 <div class="rightCol">
-<span class="locationBlock">LOCATION</span>
+<label class="locationBlock">LOCATION</label>
 <i class="location"></i><h3 class="headingInline">Norfolk, VA</h3>
 </div>
 <div class="clear"></div>
 <ul>
-	<li><h5>Created on</h5><h3>10/11/15   21:45:10</h3></li>
-	<li class="size"><span>SIZE</span><h3>10 acres</h3></li>
-	<li class="group"><span>GROUP</span><h3>East Farm</h3></li>
+	<li class="create"><label class="blackClr"><i>Created on</i></label><h3>10/11/15   21:45:10</h3></li>
+	<li class="size"><label>SIZE</label><h3>10 acres</h3></li>
+	<li class="group"><label>GROUP</label><h3>East Farm</h3></li>
 	<li class="clear"></li>
 </ul>
-<div class="clear"></div>	
+<!-- <div class="clear"></div> -->	
 </div>
 </div><!-- siteDetail ends -->
 <div class="surveyBox">
@@ -74,7 +80,7 @@
 <div class="sortDropdown">
                         <ul>
                           <li><a href="#">Date Range</a></li>
-                          <li><a href="#">Sensors <i class="down"></i></a></li>
+                          <li><a href="#">Sensors <i class="sensorDown"></i></a></li>
                           <li><a href="#">Recent to Oldest</a></li>
                         </ul>
 </div>
@@ -83,26 +89,118 @@
 <div class="clear"></div>
 </div><!-- upperSection ends -->
 <ul>
-	<li><a href="#"><div class="leftCol"><i class="direction"></i><div class="leftSec"><h5>Survey Samplex</h5><span class="date">11/12/15  09:00AM</span></div></div></a> <h4>RGB</h4><div class="rightCol"><div class="imgWrap"><i class="field"></i><i class="row"></i><i class="plant"></i><a href="#" class="plus">2+</a></div></div><div class="clear"></div></li>
+	<li><a href="#"><div class="leftCol"><i class="direction"></i><div class="leftSec"><h5>Survey Samplex</h5><span class="date">11/12/15  09:00AM</span></div></div></a> <span class="rgb">RGB</span><div class="rightCol">
+		<ul>
+			<li>
+				<img src="images/field.jpg">
+			</li>
+			<li>
+				<img src="images/row.jpg">
+			</li>
+			<li>
+				<img src="images/plant.jpg">
+			</li>
+			<li>
+				<a href="#" class="plus">2+</a>
+			</li>
+			<li class="clr"></li>
+		</ul>
+	</div><div class="clear"></div></li>
 
-	<li><a href="#"><div class="leftCol"><i class="direction"></i><div class="leftSec"><h5>Sample Name</h5><span class="date">11/12/15  09:00AM</span></div></div></a><h4>RGB</h4><div class="rightCol"><div class="imgWrap"><i class="field"></i><i class="row"></i><i class="plant"></i><a href="#" class="plus">2+</a></div></div><div class="clear"></div></li>
+	<li><a href="#"><div class="leftCol"><i class="direction"></i><div class="leftSec"><h5>Sample Name</h5><span class="date">11/12/15  09:00AM</span>
+	</div></div></a><span class="rgb">RGB</span><div class="rightCol">
+		<ul>
+			<li>
+				<img src="images/field.jpg">
+			</li>
+			<li>
+				<img src="images/row.jpg">
+			</li>
+			<li>
+				<img src="images/plant.jpg">
+			</li>
+			<li>
+				<a href="#" class="plus">2+</a>
+			</li>
+			<li class="clr"></li>
+		</ul>
+	</div><div class="clear"></div></li>
 
-	<li><a href="#"><div class="leftCol"><i class="direction"></i><div class="leftSec"><h5>Lorem Ipsum</h5><span class="date">11/12/15  09:00AM</span></div></div></a> <h4>RGB</h4><div class="rightCol"><div class="imgWrap"><i class="field"></i><i class="row"></i></div></div><div class="clear"></div></li>
+	<li><a href="#"><div class="leftCol"><i class="direction"></i><div class="leftSec"><h5>Lorem Ipsum</h5><span class="date">11/12/15  09:00AM</span></div></div></a><span class="rgb">RGB</span><div class="rightCol">
+		<ul>
+			<li>
+				<img src="images/field.jpg">
+			</li>
+			<li>
+				<img src="images/row.jpg">
+			</li>
+			<li class="clr"></li>
+		</ul>
+	</div><div class="clear"></div></li>
 
-	<li><a href="#"><div class="leftCol"><i class="direction"></i><div class="leftSec"><h5>Sample NameXYZ</h5><span class="date">11/12/15  09:00AM</span></div></div></a><h4>RGB</h4><div class="rightCol"><div class="imgWrap"><i class="field"></i><i class="row"></i><i class="plant"></i></div></div><div class="clear"></div></li>
+	<li><a href="#"><div class="leftCol"><i class="direction"></i><div class="leftSec"><h5>Sample NameXYZ</h5><span class="date">11/12/15  09:00AM</span></div></div></a><span class="rgb">RGB</span><div class="rightCol">
+		<ul>
+			<li>
+				<img src="images/field.jpg">
+			</li>
+			<li>
+				<img src="images/row.jpg">
+			</li>
+			<li>
+				<img src="images/plant.jpg">
+			</li>
+			<li class="clr"></li>
+		</ul>
+	</div><div class="clear"></div></li>
 
-	<li><a href="#"><div class="leftCol"><i class="direction"></i><div class="leftSec"><h5>Sample Name</h5><span class="date">11/12/15  09:00AM</span></div></div></a><h4>RGB</h4><div class="rightCol"><div class="imgWrap"><i class="field"></i><i class="row"></i><i class="plant"></i><a href="#" class="plus">2+</a></div></div><div class="clear"></div></li>
+	<li><a href="#"><div class="leftCol"><i class="direction"></i><div class="leftSec"><h5>Sample Name</h5><span class="date">11/12/15  09:00AM</span></div></div></a><span class="rgb">RGB</span><div class="rightCol">
+		<ul>
+			<li>
+				<img src="images/field.jpg">
+			</li>
+			<li>
+				<img src="images/row.jpg">
+			</li>
+			<li>
+				<img src="images/plant.jpg">
+			</li>
+			<li>
+				<a href="#" class="plus">2+</a>
+			</li>
+			<li class="clr"></li>
+		</ul>
+	</div><div class="clear"></div></li>
 
-	<li><a href="#"><div class="leftCol"><i class="direction"></i><div class="leftSec"><h5>Windy Survey</h5><span class="date">11/12/15  09:00AM</span></div></div></a><h4>RGB</h4><div class="rightCol"><div class="imgWrap"><i class="field"></i><i class="row"></i></div></div><div class="clear"></div></li>
+	<li><a href="#"><div class="leftCol"><i class="direction"></i><div class="leftSec"><h5>Windy Survey</h5><span class="date">11/12/15  09:00AM</span></div></div></a><span class="rgb">RGB</span><div class="rightCol">
+		<ul>
+			<li>
+				<img src="images/field.jpg">
+			</li>
+			<li>
+				<img src="images/row.jpg">
+			</li>
+			<li class="clr"></li>
+		</ul>
+	</div><div class="clear"></div></li>
 
-	<li><a href="#"><div class="leftCol"><i class="direction"></i><div class="leftSec"><h5>LiDAR Try</h5><span class="date">11/12/15  09:00AM</span></div></div></a><h4>RGB</h4><div class="rightCol"><div class="imgWrap"><i class="field"></i><i class="row"></i></div></div><div class="clear"></div></li>
+	<li><a href="#"><div class="leftCol"><i class="direction"></i><div class="leftSec"><h5>LiDAR Try</h5><span class="date">11/12/15  09:00AM</span></div></div></a><span class="rgb">RGB</span><div class="rightCol">
+		<ul>
+			<li>
+				<img src="images/field.jpg">
+			</li>
+			<li>
+				<img src="images/row.jpg">
+			</li>
+			<li class="clr"></li>
+		</ul>
+	</div><div class="clear"></div></li>
 </ul>
 </div><!-- surveyBox Ends -->
 <div class="applyBox">
             <div class="applyHeader">
             	<div class="leftTab">
             		<ul>
-            		<li><a href="#" class="active">Apply Algorithm</a></li>
+            		<li><a href="#" class="active" >Apply Algorithm</a></li>
             		<li><a href="#">Recent</a></li>
             	   </ul>
             	</div>
@@ -114,32 +212,27 @@
 			<ul class="margin">
 			<li>
 			<a href=""><img src="images/scout.jpg"></a><span>Scoutview Report</span>
-			<div class="btn"><a href="#">Apply</a>
-			</div><div class="clear"></div>
+			<a href="#" class="btn"><span>Apply</span></a><div class="clear"></div>
 			</li>
 
 			<li>
 			<a href=""><img src="images/rowBase.jpg"></a><span>Row-Based Plant Counting tool</span>
-			<div class="btn"><a href="#">Apply</a>
-			</div><div class="clear"></div>
+			<a href="#" class="btn"><span>Apply</span></a><div class="clear"></div>
 			</li>
 
 			<li>
 			<a href=""><img src="images/soil.jpg"></a><span>Soil Adjusted Vegetation Index</span>
-			<div class="btn"><a href="#">Apply</a>
-			</div><div class="clear"></div>
+			<a href="#" class="btn"><span>Apply</span></a><div class="clear"></div>
 			</li>
 
 			<li>
 			<a href=""><img src="images/ndvi.jpg"></a><span>Normalized Difference Vegetation Index</span>
-			<div class="btn"><a href="#">Apply</a>
-			</div><div class="clear"></div>
+			<a href="#" class="btn"><span>Apply</span></a><div class="clear"></div>
 			</li>
 
 			<li>
 			<a href=""><img src="images/dvi.jpg"></a><span>Difference Vegetation Index</span>
-			<div class="btn"><a href="#">Apply</a>
-			</div><div class="clear"></div>
+			<a href="#" class="btn"><span>Apply</span></a><div class="clear"></div>
 			</li>
 			</ul>
 
@@ -156,18 +249,18 @@
 </div>
 <ul>
 	<li><i class="comment"></i>
-		<div class="leftActivity"><p><span class="blackText">Mike Beckwith </span> commented on <span class="redText">Difference Vegitation Index</span> created on 11/12/15</p></div><div class="rightActivity"><span class="rightSidedate">11/15/15</span><span>10:12AM</span></div>
+		<div class="leftActivity"><p><span class="blackText">Mike Beckwith </span> commented on <a href="#"><span class="redText">Difference Vegitation Index</span></a> created on 11/12/15</p></div><div class="rightActivity"><span class="rightSidedate">11/15/15</span><span>10:12AM</span></div>
 		<div class="clear"></div>
 		<p>We just applied lime to balance the PH to this portion of the field but we are still seeing not as much growth as we predicted. </p>
 	</li>
-	<li><i class="right"></i>
+	<li class="middle"><i class="right"></i>
 		<div class="leftActivity"> <p><span class="blackText">Plant Height</span>was completed with survey from 11/08/15</p></div>
 		<div class="rightActivity"><span class="rightSidedate">11/15/15</span><span>8:12AM</span></div>
 		<div class="clear"></div>
-		<img src="images/sample.jpg">
+		<a href="#" class="sample"><img src="images/sample.jpg"></a>
 	</li>
     <li><i class="comment"></i>
-		<div class="leftActivity"><p><span class="blackText">Andrew Newton</span> commented on <span class="redText">Field Uniformity Tool</span> created on 08/11/15</p></div><div class="rightActivity"><span class="rightSidedate">11/15/15</span><span>10:12AM</span></div>
+		<div class="leftActivity"><p><span class="blackText">Andrew Newton</span> commented on <a href="#"><span class="redText">Field Uniformity Tool</span></a>  created on 08/11/15</p></div><div class="rightActivity"><span class="rightSidedate">11/15/15</span><span>10:12AM</span></div>
 		<div class="clear"></div>
 		<p>Lorem ipsum dolor sir amit dolor sit amit dues be it. I think lorem ipsum dolor 
            sit amit 46 grams of potassium been applied. But lorem ipsum dolor sit amit
