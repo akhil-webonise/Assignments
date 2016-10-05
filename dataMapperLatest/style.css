@@ -241,7 +241,7 @@ a{
 .lowerSection{
 	padding: 15px 67px 15px 33px;
 }
-.lowerSection h3{
+.lowerSection span{
 	font-size: 20px;
 	line-height: 22px;
 	color: #000;
@@ -290,6 +290,7 @@ a{
 	line-height: 18px;
 	color: #818181;
 	font-weight: 700;
+	display: block;
 }
 .siteDetail .lowerSection ul{
 	margin-top: 35px;
