@@ -570,7 +570,7 @@ display: block;
 	    padding-right: 25px;
 	    padding-bottom: 19px;
 	    padding-left: 20px;
-       
+        display: block;
 	    color: #505050;
 	    font-weight: bold;
 	    font-size: 15px;
