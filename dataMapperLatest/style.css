@@ -658,6 +658,7 @@ display: block;
 }
 .rightSidedate{
 	display: block;
+	margin-bottom: 5px;
 }
 .redText{
 	color: #c1272d;
@@ -733,7 +734,7 @@ display: block;
 }
 
 .activityBox .middle{
-    padding: 15px 20px 15px 20px;
+    padding: 13px 20px 12px 20px;
 }
 
 .activityBox .lastBox{
