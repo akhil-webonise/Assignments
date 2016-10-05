@@ -570,7 +570,7 @@ display: block;
     .applyBox .applyHeader .leftTab a
     {
     	
-    	border:1px solid #b3b3b3;
+    	border-right: 1px solid #d4d4d4;
 	    padding-top: 17px;
 	    padding-right: 25px;
 	    padding-bottom: 19px;
@@ -579,6 +579,7 @@ display: block;
 	    color: #505050;
 	    font-weight: bold;
 	    font-size: 15px;
+
     }
     .applyBox .applyHeader .leftTab a:hover
     {
