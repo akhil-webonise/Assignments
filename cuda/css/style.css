@@ -1,0 +1,326 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Titillium Web', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+	width: 1100px;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+.welcomeSection{
+	background-color: #87509c;
+	padding: 49px 28px  136px 41px;
+}
+.logo{
+	float: left;
+}
+.logo img{
+	display: block;
+}
+.header ul{
+	float: right;
+	margin-top: 3px;
+}
+
+.header ul li{
+	float: left;
+	font-size: 16px;
+	line-height: 18px;
+	margin-left: 45px;
+	font-weight: 400;
+}
+
+.header ul li:first-child{
+	margin-left: 0px;
+}
+.header ul li a{
+	display: block;
+}
+.header li a{
+	color: #fff;
+	padding: 7px 17px 7px 17px;
+	border-radius: 4px;
+}
+.active{
+	 background-color: #643a79;
+}
+
+.header li a:hover{
+    background-color: #643a79;
+}
+.welcomeSection h3{
+	font-weight: 700;
+	font-size: 42.16px;
+	line-height: 48.82px;
+	color: #f7f3ea;
+}
+.headerInfo{
+	text-align: center;
+	margin-top: 145px;
+}
+.workBtn{
+	font-size: 18px;
+	line-height: 26.19px;
+	font-weight: 600;
+	background-color: #eb7d4b;
+	text-align: center;
+	width: 293px;
+	color: #fff;
+	border-radius: 3px;
+    display: inline-block;
+    padding: 22px 0px;
+    
+
+}
+.headerInfo a{
+	margin-top: 63px;
+    box-shadow: inset 0px -4px 0px rgba(200,106,64,1);
+}
+.headerInfo a:hover{
+	color: #eb7d4b;
+	background-color: #fff;
+	 box-shadow: inset 0px -4px 0px rgba(0,0,0,0);
+
+}
+.seviceSection{
+	background-color: #17c2a4;
+    padding: 100px 0px 109px 0px;
+    text-align: center;
+
+}
+.seviceSection h4{
+	font-size: 40px;
+	line-height: 29.91px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 22px;
+}
+.serviceInfo{
+	
+    padding: 0px 255px;
+}
+.line{
+	background-image:url('sprite.png');
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	width: 87px;
+	height: 4px;
+	display: inline-block;
+}
+.serviceInfo p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 400px;
+    margin-top: 24px;
+
+}
+.serviceMenu ul li{
+	float: left;
+	width: 200px;
+	text-align: center;
+	margin-left: 88px;
+}
+.serviceMenu{
+	margin-top: 79px;
+}
+.serviceMenu a{
+	display: block;
+}
+
+.serviceMenu ul li:first-child{
+	margin-left: 0px;
+}
+.seviceSection .serviceMenu h5{
+	font-size: 24px;
+	line-height: 18px;
+	color: #fff;
+	font-weight: 700;
+	margin-top: 60px;
+
+}
+
+.serviceMenu  img:hover{
+	opacity: 0.5;
+}
+.seviceSection .serviceMenu h5:hover{
+	color: #79a98c;
+}
+
+.seviceSection .serviceMenu p{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #fff;
+	margin-top: 30px;
+}
+.serviceMenu li.clear{
+	float: none;
+	width: 0px;
+}
+.teamSection{
+    color: #e7f1f8;
+    text-align: center;
+    padding: 98px 0px 105px 0px;
+}
+.teamSection h4{
+	font-size: 41.29px;
+	line-height: 30.87px;
+	color: #3c4761;
+	font-weight: 700;
+	margin-bottom: 23px;
+}
+.teamSection p{
+	font-size: 18.58px;
+	line-height: 26.84px;
+	color: #3c4761;
+	margin-top: 25px;
+}
+.teamMenu{
+	margin-top: 78px;
+}
+.circle{
+	height: 200px;
+	width: 200px;
+	background-color: #878787;
+	border-radius: 50%;
+	display:inline-block;
+}
+.circle:hover{
+	background-color: #d99b9b;
+}
+.teamMenu li .blueText{
+	font-size: 16px;
+	line-height: 18px;
+	color: #30bae7;
+	font-weight: 400;
+	margin-top: 15px;
+}
+.teamMenu li .blueText:hover{
+	color: #eb7d4b;
+}
+.teamMenu span{
+	font-size: 24px;
+	line-height: 26px;
+	color: #27283d;
+	font-weight: 700;
+	display: block;
+	margin-top: 40px;
+}
+.teamMenu a{
+	display: block;
+}
+.teamMenu span:hover{
+	color: #878787;
+}
+.teamMenu p{
+	font-size: 16px;
+	line-height: 24px;
+	color: #3c4761;
+	font-weight: 300;
+	margin-top: 30px;
+
+}
+.teamMenu ul li{
+	float: left;
+}
+.fb{
+    background-image:url('sprite.png');
+	background-position: -255px 0px;
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+.twitter{
+    background-image:url('sprite.png');
+	background-position: -156px 0px;
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+
+.linkedIn{
+    background-image:url('sprite.png');
+	background-position: -208px 0px;
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+
+.email{
+    background-image:url('sprite.png');
+	background-position: -107px 0px;
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+.teamMenu ul li{
+	width: 202px;
+	margin-left: 97px;
+}
+
+.teamMenu ul li:first-child{
+	margin-left: 0px;
+}
+.socialIcon ul li{
+	width: 38px;
+	margin-left: 0px;
+}
+.socialIcon ul li.clear{
+	float: none;
+}
+.teamMenu ul li.clear{
+    float: none;
+}
+.socialIcon{
+	margin-top: 30px;
+}
+.socialIcon ul{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.socialIcon ul:nth-child(even){
+    padding-right: 44px;
+    padding-left: 44px;
+}
+.socialIcon a:hover{
+	opacity: 0.5;
+}
