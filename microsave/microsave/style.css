@@ -496,19 +496,17 @@ h3{
 }
 .leftRelate ul li{
     border-bottom: 1px solid #e3e3e3;
+    padding-top: 6px;
     padding-right: 33px;
     padding-bottom: 15px;
+
 }
 
 .leftRelate ul li:nth-child(even){
 	border-bottom: none;
-	padding-top: 6px;
-	padding-bottom: 0px;
 }
 .rightRelate ul li:nth-child(even){
 	border-bottom: none;
-	padding-top: 6px;
-	padding-bottom: 0px;
 }
 .rightRelate{
 	width: 340px;
@@ -521,6 +519,7 @@ h3{
 .rightRelate ul li{
     border-bottom: 1px solid #e3e3e3;
     padding-bottom: 15px;
+    padding-top: 6px;
 }
 li.borderNone{
 	border-bottom: 0px;
@@ -869,7 +868,7 @@ form .submitComment:hover{
 }
 .footer{
 	background-color: #0c0c0c;
-    padding: 13px 15px 30px 15px;
+    padding: 20px 15px 38px 15px;
 }
 .leftFooter{
 	float: left;
