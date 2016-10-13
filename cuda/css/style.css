@@ -564,6 +564,8 @@ form{
 	margin: 0 auto;
 	margin-top: 78px;
 }
+::-webkit-input-placeholder { color: #fff;}
+
 .touchSection .msgBtn{
 	font-size: 18px;
 	line-height: 26.19px;
@@ -576,6 +578,7 @@ form{
 	background-color: #30bae7;
     box-shadow: inset 0px -4px 0px rgba(41,158,197,1);
     margin-top: 59px;
+    cursor: pointer;
 }
 .msgBtn:hover{
     background-color: #fff;
