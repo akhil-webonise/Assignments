@@ -613,6 +613,7 @@ form{
 
 .footer li a{
 	color: #fff;
+	display: block;
 }
 .footer li.clear{
 	float: none;
