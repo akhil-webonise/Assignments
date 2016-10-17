@@ -650,6 +650,7 @@ h2{
     font-size: 14px;
     text-decoration: none;
     padding: 0 7px;
+    display: block;
  }
 .listMenu .lowerList{
 	margin-top: 20px;
@@ -662,6 +663,7 @@ h2{
     text-decoration: none;
     padding: 0 6px;
     color: #7c7e81;
+    display: block;
  }
 
  .listMenu .lowerList li:last-child{
