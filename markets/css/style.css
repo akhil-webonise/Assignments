@@ -107,6 +107,7 @@ input{
     width: 17px;
     display: inline-block;
     vertical-align: middle;
+    margin-right: 7px;
 }
 .search{
 	float: right;
