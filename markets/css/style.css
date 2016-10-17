@@ -41,9 +41,9 @@ a{
 	background-color: #f1f1f1;
 }
 .banner{
-    background: url('../images/banner.png') no-repeat center center;
-    background-size: cover;
-    height: 850px;
+    background: url('../images/banner.png') no-repeat;
+    background-size: contain;
+    
 }
 .container{
 	width: 1170px;
@@ -90,16 +90,23 @@ a{
 	color: #000;
 }
 input{
-
-	background: url("sprite.png");
-	background-position: 0 0;
 	width: 54px;
 	border: none;
-	padding-left: 20px;
 	font-size: 12px;
 	line-height:14px;
 	font-weight: 700;
 	color: #888888;
+    display: inline-block;
+    vertical-align: middle;
+}
+.header button{
+    background: url(sprite.png);
+    background-position: 0 0;
+    border: none;
+    height: 18px;
+    width: 17px;
+    display: inline-block;
+    vertical-align: middle;
 }
 .search{
 	float: right;
@@ -204,6 +211,11 @@ input{
 .middleSection .breadcrumb li.clear{
 	float: none;
 }
+.breadcrumb span{
+	font-size: 12px;
+	line-height: 22px;
+	color: #666;
+}
 .middleSection .breadcrumb a{
 	font-size: 12px;
 	line-height: 22px;
@@ -245,11 +257,16 @@ h2{
 	margin-top: 40px;
 }
 
-.case .caseInfo p{
+.case .caseInfo a{
     font-size: 15px;
     line-height: 22px;
     color: #0099cc;
     margin-bottom: 15px;
+    display: block;
+}
+
+.case .caseInfo a:hover{
+	color: #222;
 }
 
 .case .caseInfo span{
@@ -400,23 +417,26 @@ h2{
 	margin-top: 27px;
 }
 
+.reports .reportContent a:hover{
+	opacity: 0.5;
+}
 .rightSection .contactUs{
-    width: 178px;
-    padding: 9px 16px 15px;
+    width: 183px;
+    padding: 19px 14px 18px 13px;
     background: #f3f3f3;
 }
 
 .rightSection .contactUs h3{
 	font-size: 16px;
-	line-height: 48px;
 	color: #000;
 }
 
 .rightSection .contactUs p{
     font-size: 13px;
     color: #666;
-    margin-top: 5px;
-
+    margin-top: 17px;
+    line-height: 20px;
+  
 }
 .rightSection .contactUs a{
     color: #1199cc;
@@ -426,24 +446,275 @@ h2{
     text-decoration: underline;
 }
 .analystList{
-    margin-top: 42px;
+    margin-top: 40px;
 }
 .rightSection .analystList h3{
-    margin-bottom: 22px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    line-height: 48px;
 }
 .rightSection .analystList img{
     float: left;
 }
 .rightSection .analystList h4{
-    font-size: 13.91px;
-    margin-left: 75px;
+    font-size: 14px;
+    line-height: 22px;
     color: #222;
 }
-.rightSection .analystList p{
+.rightSection .analystList span{
     font-size: 12px;
-    margin-left: 75px;
+    line-height: 22px;
     color: #222;
 }
 .rightSection .analystList li{
     margin-bottom: 20px;
 }
+.analystInfo{
+	float: left;
+	width: 142px;
+	margin-left: 13px;
+}
+.analystList ul a{
+	display: block;
+}
+
+.analystList ul a:hover{
+	opacity: 0.5;
+}
+.rightSection .analystList li:last-child{
+	margin-bottom: 0px;
+}
+.footer{
+    color: #9a9b9e;
+    height: 100px;
+}
+.footerTop{
+
+    background-color: #2f3238;
+}
+.footer .footerTop span{
+	font-size: 18px;
+	line-height: 48px;
+	font-weight: 600;
+}
+.call{
+	background-image: url(sprite.png);
+    background-position: -33px 0px;
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.footer .footerTop .callInfo{
+	display: block;
+	font-size: 14px;
+	line-height: 20px;
+	margin-left: 53px;
+}
+
+.footer .footerTop  li{
+	float: left;
+	padding: 32px 0px 38px 0px;
+	width: 265px;
+	text-align: center;
+	border-right: 1px solid #212327;
+}
+.callUs{
+	float: left;
+    padding: 30px 20px 42px 0px;
+    border-right: 1px solid #212327;
+}
+.footer .footerTop ul{
+	float: left;
+}
+ .footer .footerTop li span{
+ 	font-size: 20px;
+ 	line-height: 20px;
+ }
+ .chat{
+ 	background-image: url(sprite.png);
+    background-position: -81px -1px;
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 31px;
+    display: inline-block;
+    vertical-align: middle;
+ }
+ .chatBox{
+ 	float: left;
+ 	text-align: center;
+ 	padding: 28px;
+    border-right: 1px solid #212327;
+ }
+ .chatBox button{
+    padding: 6px 28px;
+    color: #fff;
+    text-decoration: none;
+    background: #d6222d;
+    border-radius: 4px;
+    border: 1px solid #d6222d;
+    line-height: 48px;
+    font-size: 18px;
+}
+
+ .chatBox button:hover{
+ 	background-color: #f90918;
+ }
+ .footer .footerTop li.clear{
+ 	float: none;
+ 	padding: 0px;
+ 	width: 0px;
+ 	border: none;
+ }
+ .footerBottom{
+ 	padding-top: 32px;
+ 	padding-bottom: 81px;
+ 	border-top: 1px solid #212327;
+    background-color: #2f3238;
+ }
+ .socialIcons{
+ 	float: left;
+ 	width: 188px;
+ }
+ .footerBottom h6{
+ 	font-size: 12px;
+ 	line-height: 26px;
+ 	font-weight: 600;
+ 	margin-bottom: 8px;
+ }
+ a.fbIcon{
+ 	background-image: url(sprite.png);
+    background-position: -352px 0px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+ }
+ a.twitterIcon{
+ 	background-image: url(sprite.png);
+    background-position: -285px -2px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+ }
+ a.linkedinIcon{
+ 	background-image: url(sprite.png);
+    background-position: -229px -2px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+ }
+ a.gooleIcon{
+ 	background-image: url(sprite.png);
+    background-position: -169px -2px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+ }
+ .socialIcons a{
+ 	margin-right: 7px;
+ }
+
+ .socialIcons a:hover{
+ 	opacity: 0.5;
+ }
+ .listMenu{
+ 	text-align: center;
+ 	float: left;
+ 	width: 790px;
+ }
+ .listMenu li{
+ 	display: inline-block;
+ 	border-right: 1px solid #fff;
+ }
+
+ .listMenu li:hover{
+ 	opacity: 0.5;
+ }
+
+ .listMenu li:last-child{
+ 	border: none;
+ }
+ .listMenu .upperList a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0 7px;
+ }
+.listMenu .lowerList{
+	margin-top: 20px;
+}
+ .listMenu .lowerList li{
+    border-right: 1px solid #56575b;
+ }
+ .listMenu .lowerList a{
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0 6px;
+    color: #7c7e81;
+ }
+
+ .listMenu .lowerList li:last-child{
+ 	border: 0px;
+ }
+ .payment{
+ 	float: right;
+ }
+ .visa{
+ 	background-image: url(sprite.png);
+    background-position: 0px -51px;
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+ }
+ .mastercard{
+ 	background-image: url(sprite.png);
+    background-position: -61px -51px;
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+ }
+ .aExpress{
+ 	background-image: url(sprite.png);
+    background-position: -128px -51px;
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+ }
+ .paypal{
+ 	background-image: url(sprite.png);
+    background-position: -188px -51px;
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+ }
+ .payment ul li{
+ 	float: left;
+ 	margin-left: 4px;
+ }
+ .payment ul li.clear{
+ 	float: none;
+ 	margin: 0px;
+ }
+
+ .payment ul li:first-child{
+ 	margin-left: 0px;
+ }
