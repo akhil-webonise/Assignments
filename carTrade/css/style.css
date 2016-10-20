@@ -672,8 +672,6 @@ a{
     background-repeat: no-repeat;
     width: 11px;
     height: 20px;
-    display: inline-block;
-    vertical-align: middle;
 }
 .blogIcon{
 	background-image: url(sprite.png);
@@ -681,8 +679,6 @@ a{
     background-repeat: no-repeat;
     width: 18px;
     height: 18px;
-    display: inline-block;
-    vertical-align: middle;
 }
 .twitterIcon{
 	background-image: url(sprite.png);
@@ -690,8 +686,6 @@ a{
     background-repeat: no-repeat;
     width: 20px;
     height: 17px;
-    display: inline-block;
-    vertical-align: middle;
 }
 .ytIcon{
 	background-image: url(sprite.png);
@@ -699,8 +693,6 @@ a{
     background-repeat: no-repeat;
     width: 21px;
     height: 26px;
-    display: inline-block;
-    vertical-align: middle;
 }
 .linkedIcon{
 	background-image: url(sprite.png);
@@ -708,8 +700,6 @@ a{
     background-repeat: no-repeat;
     width: 19px;
     height: 19px;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .followUs ul{
