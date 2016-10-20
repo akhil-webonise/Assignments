@@ -720,10 +720,6 @@ a{
 	margin: 0px;
 }
 
-.followUs a{
-	display: block;
-}
-
 .followUs a:hover{
 	opacity: 0.5;
 }
