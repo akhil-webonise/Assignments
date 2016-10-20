@@ -390,18 +390,19 @@ a{
 	line-height: 17px;
 	color: #656565;
 	display: inline-block;
-	margin-top: 13px;
-}
+	margin-top: 14px;
+	width: 115px;
+	text-align: center;
+}/*
 .carName{
 	width: 221px;
 	margin: 0 auto;
-}
+}*/
 .carName span{
     font-size: 14px;
     line-height: 14px;
     color: #010101;
-    margin-left: 16px;
-    margin-right: 14px;
+  
 }
 .textCenter{
 	text-align: center;
