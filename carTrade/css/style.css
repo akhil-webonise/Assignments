@@ -369,7 +369,7 @@ a{
 .featuredBox{
     border: 1px solid #f1f1f1;
     box-shadow: 4px 4px 18px -11px rgba(0,0,0,8.0);
-    margin-top: 26px;
+    margin-top: 20px;
 }
 .featuredBox .upperSection{
 	padding-bottom: 14px;
@@ -485,7 +485,7 @@ a{
 	box-shadow: 4px 4px 18px -11px rgba(0,0,0,8.0);
 }
 .asideWrap{
-	margin-top: 10px;
+	margin-top: 20px;
 }
 .leftAside .upperSection a{
     font-size: 18px;
