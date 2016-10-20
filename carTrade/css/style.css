@@ -184,18 +184,18 @@ a{
 	line-height: 16px;
 	color: #bbb;
 	background-color: #fff;
-	padding:10px 13px 11px 13px;
+	padding:10px 13px 10px 13px;
 	width: 100%;
 	border: 1px solid #e2e2e2;
 	margin-top: 10px;
-}
+}/*
 .optionBox .upperSection select{
     padding: 14px 13px 11px 13px;
-}
+}*/
 .budget{
 	padding-left: 26px;
 	padding-right: 11px;
-	padding-bottom: 22px;
+	padding-bottom: 18px;
 }
 .budget span{
 	font-size: 16px;
