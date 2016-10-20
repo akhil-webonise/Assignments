@@ -693,6 +693,7 @@ a{
     background-repeat: no-repeat;
     width: 21px;
     height: 26px;
+    margin-top: -4px;
 }
 .linkedIcon{
 	background-image: url(sprite.png);
