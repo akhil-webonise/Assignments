@@ -55,6 +55,7 @@ a{
 }
 .header{
 	background-color: #fffaeb; 
+    box-shadow: 4px 4px 18px -11px rgba(0,0,0,8.0);
 }
 .logo{
 	padding: 23.5px 0px 23.5px 0px;
@@ -492,10 +493,10 @@ a{
     color: #5a5a5a;
     padding-bottom: 8px;
     position: relative;
+    display: block;
 }
 
 .leftAside .upperSection ul{
-	padding-bottom: 8px;
 	border-bottom: 1px solid #ebebeb;
 
 }
@@ -538,12 +539,13 @@ a{
 .content ul li{
 	float: left;
 	width: 33.33%;
-	margin-bottom: 28px;
+	margin-bottom: 29px;
 }
 .leftAside .content a{
 	font-size: 13px;
 	line-height: 15px;
 	color: #858585;
+	display: block;
 }
 .leftAside .upperSection{
 	padding-bottom: 24px;
@@ -590,7 +592,6 @@ a{
     line-height: 15px;
     color: #2980b9;
     text-decoration: underline;
-    display: block;
     margin-bottom: 0px;
 }
 .rightAside ul li{
