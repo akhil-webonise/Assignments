@@ -65,7 +65,7 @@ a{
 }
 .menuBar{
 	background-color: #4b4b4b;
-	padding: 11px 10px 11px 18px;
+	padding: 10px 10px 10px 18px;
 	margin-top: 20px;
 	margin-bottom: 20px; 
 }
@@ -110,13 +110,14 @@ a{
     vertical-align: middle;
 }
 .menuBar input{
-	width: 210px;
-	padding: 4px 9px 4px 9px;
+	width: 192px;
+	padding: 5px 9px 5px 9px;
 	font-size: 13px;
 	line-height: 15px;
 	color: #ababab;
 	background-color: #5f5f5f;
 	border: none;
+	position: relative;
 }
 .menuBar form .searchBtn{
 	background: url("sprite.png");
@@ -124,7 +125,9 @@ a{
 	width: 20px;
 	height: 18px;
 	display: inline-block;
-	margin-left: -30px;
+	position: absolute;
+	top: 125px;
+	right: 338px;
 }
 .menuBar form{
 	float: right;
