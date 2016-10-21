@@ -614,6 +614,9 @@ a{
 	padding-bottom: 18px;
 	padding-top: 18px;
 }
+.rightAside .upperSection h3{
+	padding-bottom: 11px;
+}
 .footerWrap{
 	width: 900px;
 	margin: 0 auto;
