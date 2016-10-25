@@ -410,19 +410,18 @@ a {
     background-color: #fff;
     color: #ea3d3d;
 }
-.compare {
-    margin-top: 20px;
-}
-.compare button {
+.compareBtn {
     background-color: #848484;
     color: #fff;
     border: none;
-    width: 100%;
     font-size: 16px;
     line-height: 18px;
-    padding: 15px 13px 14px 19px;
+    padding: 15px 18px 14px 19px;
+    display: inline-block;
+    width: 261px;
+    margin-top: 20px;
 }
-.compare button:hover {
+.compareBtn:hover {
     color: #848484;
     background-color: #e1e1e1;
 }
@@ -434,13 +433,13 @@ a {
     height: 21px;
     vertical-align: middle;
 }
-.compare span {
+.compareBtn span {
     margin-top: 3px;
 }
 .featuredBox {
     border: 1px solid #f1f1f1;
     box-shadow: 0px 3px 5px 0px rgba(232, 232, 232, 0.8);
-    margin-top: 20px;
+    margin-top: 16px;
 }
 .featuredBox .upperSection {
     padding-bottom: 8px;
@@ -505,7 +504,7 @@ a {
 .expertBox {
     border: 1px solid #f1f1f1;
     box-shadow: 0px 3px 5px 0px rgba(232, 232, 232, 0.8);
-    margin-top: 20px;
+    margin-top: 16px;
 }
 .expertBox .upperSection {
     padding-bottom: 8px;
