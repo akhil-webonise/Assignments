@@ -534,12 +534,7 @@ a {
     border: none;
 }
 .expertBox .viewAll {
-    float: right;
-    font-size: 13px;
-    line-height: 15px;
     color: #2980b9;
-    text-decoration: underline;
-    margin-bottom: 0px;
     margin-top: 8px;
 }
 .leftAside {
@@ -632,13 +627,13 @@ a {
     color: #666666;
     display: block;
     margin-bottom: 15px;
-}
+}/*
 .rightAside .viewAll a {
     color: #2980b9;
     margin-bottom: 0px;
     font-size: 13px;
     line-height: 15px;
-}
+}*/
 .rightAside a:hover {
     color: #ea3d3d;
 }
@@ -646,7 +641,7 @@ a {
     font-size: 12px;
     line-height: 14px;
     color: #9f9f9f;
-}
+}/*
 .rightAside .viewAll {
     float: right;
     font-size: 13px;
@@ -654,7 +649,7 @@ a {
     color: #2980b9;
     text-decoration: underline;
     margin-bottom: 0px;
-}
+}*/
 .rightAside ul li {
     border-bottom: 1px solid #ebebeb;
     padding-top: 11px;
